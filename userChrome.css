@@ -12,25 +12,24 @@ and more closely match the height of quantum's compact density */
   --arrowpanel-menuitem-padding: 6px 8px !important;
   --arrowpanel-menuitem-margin: 0 4px !important;
   --panel-subview-body-padding: 4px 0 !important;
+  /* square the off most of the UI (selection buttons on hover, context menus, hamburger menus, etc) */
+  --toolbarbutton-border-radius: 0px !important;
+  --arrowpanel-menuitem-border-radius: 0 !important;
+  --arrowpanel-border-radius: 0 !important;
+  --tab-border-radius: 0 !important;
 }
 
-/* Remove Back button circle, QUANTUM ONLY */
-/* #back-button:not(:hover), #back-button:not(:hover) > .toolbarbutton-icon {
-    transform: scale(.95,.95) !important; 
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    } */
-
-/* removes the rounded corners from menus */
-@-moz-document url-prefix(chrome://browser/content/){
-  .panel-arrowcontent,
-  #alltabs-popup .arrowscrollbox-scrollbox,
-  menupopup:not(#BMB_bookmarksPopup),
-  .textbox-contextmenu{
-    border-radius: 0px !important;
-  }
+/* removes the rounded corners from (bookmarks) menu */
+.menupopup-arrowscrollbox, .panel-arrowcontainer, .panel-arrowbox, .panel-arrowscrollbox, menupopup {
+  border-radius: 0 !important;
 }
+
+/* removes rounded corner from selection box in side bookmarks menu */
+menupopup menuitem, menupopup menu {
+  border-radius: 0 !important;
+}
+
+
 
 /* Reduce left spacer on tab bar */
 .titlebar-spacer[type="pre-tabs"] {
