@@ -1,8 +1,56 @@
+
+/* style the new tab page */
 @-moz-document url(about:home), url(about:newtab) {
-    /* .outer-wrapper.newtab-experience .search-wrapper .search-handoff-button{ */
+    /* square the search box  corners */
       body .search-handoff-button{
-      /* border: 1px solid !important; */
+      border-radius: 0 !important;
+    }
+
+    /* square the settings button and buttons inside its menu */
+    .personalize-button{
+      border-radius: 0 !important;
+    }
+    .close-button{
+      border-radius: 0 !important;
+    }
+
+     /* square all the 3 dot menus */
+     .context-menu-button{
+      border-radius: 0 !important;
+    }
+    .context-menu{
+      border-radius: 0 !important;
+    }
+    
+    /* square the shortcuts: icons, background, and selection box */
+    .tile{
+      border-radius: 0 !important;
+    }
+    .top-site-icon{
+      border-radius: 0 !important;
+    }
+    .icon-wrapper{
+      border-radius: 0 !important;
+    }
+    .top-site-outer{
+      border-radius: 0 !important;
+    }
+
+    /* square the "suggested by pocket" cards and images */
+    .ds-card{
+      border-radius: 0px !important;
+    }
+    img{
+      border-radius: 0px !important;
+    }
+ 
+
+    
+    /* square all the recent activity cards and images */
+    .card-outer{
+      border-radius: 0px !important;
+    }
+    .card-preview-image-outer{
       border-radius: 0px !important;
     }
 }
-
