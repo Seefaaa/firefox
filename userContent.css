@@ -1,10 +1,12 @@
 
-/* style the new tab page */
+/* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
+
 @-moz-document url(about:home), url(about:newtab) {
     /* square the search box  corners */
       body .search-handoff-button{
       border-radius: 0 !important;
     }
+
 
     /* square the settings button and buttons inside its menu */
     .personalize-button{
@@ -14,6 +16,7 @@
       border-radius: 0 !important;
     }
 
+
      /* square all the 3 dot menus */
      .context-menu-button{
       border-radius: 0 !important;
@@ -22,6 +25,7 @@
       border-radius: 0 !important;
     }
     
+
     /* square the shortcuts: icons, background, and selection box */
     .tile{
       border-radius: 0 !important;
@@ -36,6 +40,7 @@
       border-radius: 0 !important;
     }
 
+
     /* square the "suggested by pocket" cards and images */
     .ds-card{
       border-radius: 0px !important;
@@ -43,14 +48,13 @@
     img{
       border-radius: 0px !important;
     }
- 
-
     
+
     /* square all the recent activity cards and images */
     .card-outer{
-      border-radius: 0px !important;
+      border-radius: 0 !important;
     }
     .card-preview-image-outer{
-      border-radius: 0px !important;
+      border-radius: 0 !important;
     }
 }
