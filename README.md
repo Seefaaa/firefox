@@ -3,7 +3,7 @@
 Tested on Stable and Beta channels (Firefox 91+)
 
 
-![Sample Screenshot of Theme](https://github.com/leadweedy/Firefox-Proton-Square/blob/main/ff_protonbutquantum.png "Sample Screenshot")
+![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
 
   If you are like me and hate rounded tabs, this is for you.
 
@@ -47,3 +47,23 @@ Tested on Stable and Beta channels (Firefox 91+)
      - copy the files into the `chrome` directory
   4. Restart Firefox
  
+
+
+
+## Appendix
+
+Various Screenshots of the UI with theme applied
+
+### Quit Window
+![Quit Window](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/quit.png "Quit Window")
+
+### Addons Page
+![Addons Page](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/addons.png "Addons Page")
+
+### Passwords Page
+![Passwords Page](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/logins.png "Passwords Page")
+
+### New Tab with All Cards
+![New Tab with All Cards](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/newtab_cards.png "New Tab with All Cards")
+
+
