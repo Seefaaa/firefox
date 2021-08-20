@@ -1,20 +1,34 @@
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
 
-@-moz-document url(about:home), url(about:newtab) {
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
     /* square the search box  corners */
       body .search-handoff-button{
       border-radius: 0 !important;
     }
 
 
-    /* square the settings button and buttons inside its menu */
+    /* square the settings button and checkboxes / buttons / selectors inside its menu */
     .personalize-button{
       border-radius: 0 !important;
     }
     .close-button{
       border-radius: 0 !important;
     }
+    .selector{
+      border-radius: 0 !important;
+    }
+    .sponsored-checkbox{
+      border-radius: 0 !important;
+    }
+    /* square the toggle button for above */
+    .slider{
+      border-radius: 0 !important;
+    }
+    .slider::before{
+      border-radius: 0 !important;
+    }
+
 
 
      /* square all the 3 dot menus */
@@ -67,10 +81,139 @@
 
 /* SETTINGS PAGE ------------------------------------------------------------------------------------------- */
 
-@-moz-document url(about:preferences){
+@-moz-document url(about:preferences), url(about:preferences#general), url(about:preferences#home),
+url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), url(about:addons){
   /* square checkboxes */
   .checkbox-check{
     border-radius: 0 !important;
   }
 
+
+  /* square search box */
+  search-textbox{
+    border-radius: 0 !important;
+  }
+
+
+  /* square selection buttons */
+  button{
+    border-radius: 0 !important;
+  }
+  richlistitem{
+    border-radius: 0 !important;
+  }
+  menulist{
+    border-radius: 0 !important;
+  }
+  .sidebar-footer-link {
+    border-radius: 0 !important;
+  }
+
+
+  /* square search engines table on about:preferences#search page */
+  #engineList{
+    border-radius: 0 !important;
+  }
+
+
+  /* square boxes on about:addons */
+  addon-card{
+    border-radius: 0 !important;
+  }
+  .addon{
+    border-radius: 0 !important;
+  }
+  .card{
+    border-radius: 0 !important;
+  }
+  .content-blocking-category{
+    border-radius: 0 !important;
+  }
+  .container{
+    border-radius: 0 !important;
+  }
+
+
+  /* square toggle buttons */
+  .toggle-button, .toggle-button::before{
+    border-radius: 0 !important;
+  }
+}
+
+
+
+
+
+/* ABOUT:CONFIG --------------------------------------------------------------------------------------------- */
+
+@-moz-document url(about:config){
+  /* square search bar, checkbox, and buttons */
+  #about-config-search{
+    border-radius: 0 !important;
+  }
+  #about-config-show-only-modified{
+    border-radius: 0 !important;
+  }
+  button{
+    border-radius: 0 !important;
+  }
+}
+
+
+
+
+
+/* TROUBLESHOOTING / COMPATIBILITY / CRASHES / PROFILES ------------------------------------------------------ */
+
+@-moz-document url(about:support), url(about:compat), url(about:crashes), url(about:profiles) {
+  /* square buttons */
+  button{
+    border-radius: 0 !important;
+  }
+}
+
+
+
+
+
+/* DOWNLOADS ------------------------------------------------------------------------------------------------ */
+
+@-moz-document url(about:downloads){
+  /* square buttons and boxes*/
+  .button-box{
+    border-radius: 0 !important;
+  }
+  richlistbox{
+    border-radius: 0 !important;
+  }
+}
+
+
+
+
+/* LOGINS AND PASSWORDS ------------------------------------------------------------------------------------ */
+
+@-moz-document url(about:logins){
+  /* square search box */
+  .filter{
+    border-radius: 0 !important;
+  }
+  
+
+  /* square buttons*/
+  button{
+    border-radius: 0 !important;
+  }
+
+
+  /* square 3 dot menu */
+  .menu{
+    border-radius: 0 !important;
+  }
+
+
+  /* square input fields for website / username / password */
+  input{
+    border-radius: 0 !important;
+  }
 }
