@@ -133,7 +133,7 @@ menupopup menuitem, menupopup menu {
 
 /* MISC ITEMS ------------------------------------------------------------------------------------------- */
 
-/* "close tabs and quit" window and buttons (and prob other dialog boxes) */
+/* square "close tabs and quit" window and buttons (and prob other dialog boxes) */
 .dialogBox{
   border-radius: 0 !important;
 }
@@ -141,3 +141,8 @@ button{
   border-radius: 0 !important;
 }
 
+
+/* square checkboxes */
+.checkbox-check{
+  border-radius: 0 !important;
+}

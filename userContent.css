@@ -15,7 +15,7 @@
     .close-button{
       border-radius: 0 !important;
     }
-    
+
 
      /* square all the 3 dot menus */
      .context-menu-button{
@@ -57,4 +57,20 @@
     .card-preview-image-outer{
       border-radius: 0 !important;
     }
+}
+
+
+
+
+
+
+
+/* SETTINGS PAGE ------------------------------------------------------------------------------------------- */
+
+@-moz-document url(about:preferences){
+  /* square checkboxes */
+  .checkbox-check{
+    border-radius: 0 !important;
+  }
+
 }
