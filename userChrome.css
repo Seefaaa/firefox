@@ -121,12 +121,10 @@ menupopup menuitem, menupopup menu {
 }
 
 
-
 /* square off the toggle switch for "enhanced tracking protection" */
-/* .protections-popup-tp-switch{
+.protections-popup-tp-switch, .protections-popup-tp-switch::before{
   border-radius: 0 !important;
-} */
-/* WIP -- background is square but actual switch still circular */
+}
 
 
 
