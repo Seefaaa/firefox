@@ -38,7 +38,8 @@ Tested on Stable and Beta channels (Firefox 91+)
   2. Find Profile Directory.
      - Go to =about:support=
      - Open Profile Directory
-  3. Copy File
+  3. Copy Files
      - create =chrome= directory at profile
-     - copy files
-  4. Restart
+     - download the =userChrome.css= and =userContent.css= files from this repository
+     - copy the files into the =chrome= directory
+  4. Restart Firefox
