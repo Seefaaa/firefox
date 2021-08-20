@@ -138,7 +138,15 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .toggle-button, .toggle-button::before{
     border-radius: 0 !important;
   }
+
+
+  /* square the context / dropdown menu  */
+  panel-list{
+    border-radius: 0 !important;
+  }
 }
+
+
 
 
 
