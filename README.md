@@ -1,6 +1,6 @@
 # Firefox Proton Square
 
-Tested on Stable and Beta channels (Firefox 91+)
+Disclaimer: Only tested on Stable and Beta channels (Firefox 91+) on Linux
 
 
 ![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
