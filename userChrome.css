@@ -127,3 +127,17 @@ menupopup menuitem, menupopup menu {
   border-radius: 0 !important;
 } */
 /* WIP -- background is square but actual switch still circular */
+
+
+
+
+/* MISC ITEMS ------------------------------------------------------------------------------------------- */
+
+/* "close tabs and quit" window and buttons (and prob other dialog boxes) */
+.dialogBox{
+  border-radius: 0 !important;
+}
+button{
+  border-radius: 0 !important;
+}
+
