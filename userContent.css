@@ -52,7 +52,37 @@
 
 @-moz-document url(about:preferences), url(about:preferences#general), url(about:preferences#home),
 url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), url(about:addons){
-  *{border-radius: 0 !important;}
+  /* square checkboxes */
+  .checkbox-check{
+    border-radius: 0 !important;
+  }
+
+
+  /* square search box */
+  search-textbox{
+    border-radius: 0 !important;
+  }
+
+
+  /* square selection buttons */
+  button{
+    border-radius: 0 !important;
+  }
+  richlistitem{
+    border-radius: 0 !important;
+  }
+  menulist{
+    border-radius: 0 !important;
+  }
+  .sidebar-footer-link {
+    border-radius: 0 !important;
+  }
+
+
+  /* square search engines table on about:preferences#search page */
+  #engineList{
+    border-radius: 0 !important;
+  }
 }
 
 
