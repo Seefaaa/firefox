@@ -171,6 +171,12 @@ select {border-radius: 0 !important;}
 #backgrounds-enabled {border-radius: 0 !important;}
 
 
+/* tooltips */
+.places-tooltip-box {
+  border-radius: 0 !important;
+}
+
+
 
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
