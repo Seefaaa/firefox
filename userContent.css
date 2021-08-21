@@ -20,6 +20,8 @@
     }
     .sponsored-checkbox{
       border-radius: 0 !important;
+      /* padding: 4px   !important;
+      border: 4px   !important; */
     }
     /* square the toggle button for above */
     .slider{
@@ -104,10 +106,21 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 
 
 
+/* ABOUT CONFIG PAGE ---------------------------------------------------------------------------------------- */
+
+@-moz-document url(about:config) {
+  /* square everything except radio buttons */
+  #about-config-search {border-radius: 0 !important;}
+  #about-config-show-only-modified {border-radius: 0 !important;}
+  button {border-radius: 0 !important;}
+}
+
+
+
 
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
 
-@-moz-document url(about:compat), url(about:config), url(about:crashes), url(about:debugging), 
+@-moz-document url(about:compat), url(about:crashes), url(about:debugging), 
 url(about:debugging#/setup), url(about:debugging#/runtime/this-firefox), url(about:devtools), 
 url(about:downloads), url(about:logins), url(about:networking), url(about:policies), url(about:profiles),
 url(about:profiling), url(about:protections), url(about:serviceworkers), url(about:studies), 
