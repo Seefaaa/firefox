@@ -1,13 +1,12 @@
 # Firefox Proton Square
+*Recreates the feel of Quantum with its squared tabs and menus. No rounded corners to be seen.*
 
-Disclaimer: Tested for Stable and Beta channels (Firefox 91+) on Linux
 
 
 ![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
+*Disclaimer: Tested for Stable and Beta channels (Firefox 91+) on Linux*
 
   If you are like me and hate rounded tabs, this is for you.
-
-  Overall I understand why Mozilla went the direction they did with [Proton](https://wiki.mozilla.org/Firefox/Proton) to "modernize" the UI, but not to say that I have to like it.
   
   These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI. As of FF91, the about:config option to disable proton ("browser.proton.enabled = false") has been deprecated, leaving CSS as the main way to revert the UI.
 
