@@ -100,6 +100,7 @@ and more closely match the height of quantum's compact density */
   --arrowpanel-menuitem-border-radius: 0 !important;
   --arrowpanel-border-radius: 0 !important;
   --tab-border-radius: 0 !important;
+  --subviewbutton-border-radius: 0 
 }
 
 
@@ -115,7 +116,7 @@ menupopup menuitem, menupopup menu {
 }
 
 
-/* square off all aspects of the download menu (i.e. selection boxes, open in folder button) */
+/* square off aspects of the download menu (i.e. selection boxes, open in folder button) */
 .download-state, .downloadButton{
   border-radius: 0 !important;
 }
@@ -126,21 +127,51 @@ menupopup menuitem, menupopup menu {
   border-radius: 0 !important;
 }
 
+.appMenu-zoomReduce-button2{
+  border-radius: 0 !important;
+}
+appMenu-zoomReduce-button2{
+  border-radius: 0 !important;
+}
+#appMenu-zoomReduce-button2{
+  border-radius: 0 !important;
+}
+.subviewbutton{
+  border-radius: 0 !important;
+}
+.subviewbutton-iconic{
+  border-radius: 0 !important;
+}
+
+appmenuitem-zoom-reduce{border-radius: 0 !important;}
+.appmenuitem-zoom-reduce{border-radius: 0 !important;}
+#appmenuitem-zoom-reduce{border-radius: 0 !important;}
+
+.toolbaritem-combined-buttons{border-radius: 0 !important;}
+.toolbarbutton-icon{border-radius: 0 !important;}
+
 
 
 
 /* MISC ITEMS ------------------------------------------------------------------------------------------- */
 
 /* square "close tabs and quit" window and buttons (and prob other dialog boxes) */
-.dialogBox{
-  border-radius: 0 !important;
-}
-button{
-  border-radius: 0 !important;
-}
+.dialogBox {border-radius: 0 !important;}
+button {border-radius: 0 !important;}
 
 
 /* square checkboxes */
-.checkbox-check{
-  border-radius: 0 !important;
-}
+.checkbox-check {border-radius: 0 !important;}
+
+
+/* square dropdown selection boxes */
+select {border-radius: 0 !important;}
+
+
+/* square selections and checkboxes on the print page */
+.toggle-group-label {border-radius: 0 !important;} 
+.photon-number{border-radius: 0 !important;}
+#headers-footers-enabled{border-radius: 0 !important;}
+#backgrounds-enabled{border-radius: 0 !important;}
+
+
