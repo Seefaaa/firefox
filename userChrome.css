@@ -104,6 +104,10 @@ and more closely match the height of quantum's compact density */
 }
 
 
+
+
+/* SUB MENUS --------------------------------------------------------------------------------------------- */
+
 /* removes the rounded corners from (bookmarks) menu */
 .menupopup-arrowscrollbox, .panel-arrowcontainer, .panel-arrowbox, .panel-arrowscrollbox, menupopup {
   border-radius: 0 !important;
@@ -111,37 +115,22 @@ and more closely match the height of quantum's compact density */
 
 
 /* removes rounded corner from selection box in side bookmarks menu */
-menupopup menuitem, menupopup menu {
-  border-radius: 0 !important;
-}
+menupopup menuitem, menupopup menu {border-radius: 0 !important;}
+
+
+/* square input fields in the edit bookmarks menu */
+#editBMPanel_namePicker {border-radius: 0 !important;}
+#editBMPanel_folderMenuList {border-radius: 0 !important;}
+#editBMPanel_tagsField {border-radius: 0 !important;}
 
 
 /* square off aspects of the download menu (i.e. selection boxes, open in folder button) */
-.download-state, .downloadButton{
-  border-radius: 0 !important;
-}
+.download-state, .downloadButton {border-radius: 0 !important;}
 
 
 /* square off the toggle switch for "enhanced tracking protection" */
-.protections-popup-tp-switch, .protections-popup-tp-switch::before{
-  border-radius: 0 !important;
-}
+.protections-popup-tp-switch, .protections-popup-tp-switch::before {border-radius: 0 !important;}
 
-.appMenu-zoomReduce-button2{
-  border-radius: 0 !important;
-}
-appMenu-zoomReduce-button2{
-  border-radius: 0 !important;
-}
-#appMenu-zoomReduce-button2{
-  border-radius: 0 !important;
-}
-.subviewbutton{
-  border-radius: 0 !important;
-}
-.subviewbutton-iconic{
-  border-radius: 0 !important;
-}
 
 
 /* square the fullscreen and zoom reset */
@@ -177,9 +166,9 @@ select {border-radius: 0 !important;}
 
 /* square selections and checkboxes on the print page */
 .toggle-group-label {border-radius: 0 !important;} 
-.photon-number{border-radius: 0 !important;}
-#headers-footers-enabled{border-radius: 0 !important;}
-#backgrounds-enabled{border-radius: 0 !important;}
+.photon-number {border-radius: 0 !important;}
+#headers-footers-enabled {border-radius: 0 !important;}
+#backgrounds-enabled {border-radius: 0 !important;}
 
 
 
@@ -188,3 +177,8 @@ select {border-radius: 0 !important;}
 /* download progressbar specifically for addons */
 /* radio buttons maybe? */
 /* export buttons in about:certificates */
+
+
+
+
+
