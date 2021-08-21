@@ -82,13 +82,22 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 }
 
 
+/* DOWNLOADS ------------------------------------------------------------------------------------------------ */
+
+@-moz-document url(about:downloads){
+  /* square buttons and boxes*/
+  .button-box {border-radius: 0 !important;}
+  richlistbox {border-radius: 0 !important;}
+}
+
+
 
 
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:compat), url(about:crashes), url(about:debugging), 
 url(about:debugging#/setup), url(about:debugging#/runtime/this-firefox), url(about:devtools), 
-url(about:downloads), url(about:logins), url(about:networking), url(about:policies), url(about:profiles),
+ url(about:logins), url(about:networking), url(about:policies), url(about:profiles),
 url(about:profiling), url(about:protections), url(about:serviceworkers), url(about:studies), 
 url(about:support), url(about:telemetry), url(about:url-classifier), url(about:webrtc), url(about:welcome) {
   *{border-radius: 0 !important;}
