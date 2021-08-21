@@ -3,76 +3,44 @@
 
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
     /* square the search box  corners */
-    body .search-handoff-button{
-      border-radius: 0 !important;
-    }
+    body .search-handoff-button {border-radius: 0 !important;}
 
 
     /* square the settings button and checkboxes / buttons / selectors inside its menu */
-    .personalize-button{
-      border-radius: 0 !important;
-    }
-    .close-button{
-      border-radius: 0 !important;
-    }
-    .selector{
-      border-radius: 0 !important;
-    }
+    .personalize-button {border-radius: 0 !important;}
+    .close-button {border-radius: 0 !important;}
+    .selector {border-radius: 0 !important;}
     .sponsored-checkbox{
       border-radius: 0 !important;
       /* padding: 4px   !important;
       border: 4px   !important; */
     }
     /* square the toggle button for above */
-    .slider{
-      border-radius: 0 !important;
-    }
-    .slider::before{
-      border-radius: 0 !important;
-    }
+    .slider {border-radius: 0 !important;}
+    .slider::before {border-radius: 0 !important;}
 
 
 
-     /* square all the 3 dot menus */
-     .context-menu-button{
-      border-radius: 0 !important;
-    }
-    .context-menu{
-      border-radius: 0 !important;
-    }
+    /* square all the 3 dot menus */
+    .context-menu-button {border-radius: 0 !important;}
+    .context-menu {border-radius: 0 !important;}
     
 
     /* square the shortcuts: icons, background, and selection box */
-    .tile{
-      border-radius: 0 !important;
-    }
-    .top-site-icon{
-      border-radius: 0 !important;
-    }
-    .icon-wrapper{
-      border-radius: 0 !important;
-    }
-    .top-site-outer{
-      border-radius: 0 !important;
-    }
+    .tile {border-radius: 0 !important;}
+    .top-site-icon {border-radius: 0 !important;}
+    .icon-wrapper {border-radius: 0 !important;}
+    .top-site-outer {border-radius: 0 !important;}
 
 
     /* square the "suggested by pocket" cards and images */
-    .ds-card{
-      border-radius: 0px !important;
-    }
-    img{
-      border-radius: 0px !important;
-    }
+    .ds-card {border-radius: 0 !important;}
+    img {border-radius: 0px !important;}
     
 
     /* square all the recent activity cards and images */
-    .card-outer{
-      border-radius: 0 !important;
-    }
-    .card-preview-image-outer{
-      border-radius: 0 !important;
-    }
+    .card-outer {border-radius: 0 !important;}
+    .card-preview-image-outer {border-radius: 0 !important;}
 }
 
 
@@ -98,9 +66,7 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 
 
   /* square toggle buttons */
-  .toggle-button, .toggle-button::before{
-    border-radius: 0 !important;
-  }
+  .toggle-button, .toggle-button::before {border-radius: 0 !important;}
 }
 
 
