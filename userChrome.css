@@ -143,12 +143,19 @@ appMenu-zoomReduce-button2{
   border-radius: 0 !important;
 }
 
-appmenuitem-zoom-reduce{border-radius: 0 !important;}
-.appmenuitem-zoom-reduce{border-radius: 0 !important;}
-#appmenuitem-zoom-reduce{border-radius: 0 !important;}
 
-.toolbaritem-combined-buttons{border-radius: 0 !important;}
-.toolbarbutton-icon{border-radius: 0 !important;}
+/* square the fullscreen and zoom reset */
+#appMenu-zoomReset-button2 > .toolbarbutton-text,
+#appMenu-fullscreen-button2 > .toolbarbutton-icon{
+  border-radius: 0 !important;
+}
+
+
+/* should square the +/- zoom buttons, but doesnt */
+#appMenu-zoomReduce-button2 > .toolbarbutton-icon,
+#appMenu-zoomEnlarge-button2 > .toolbarbutton-icon {
+  border-radius: 0 !important;
+}
 
 
 
@@ -173,5 +180,3 @@ select {border-radius: 0 !important;}
 .photon-number{border-radius: 0 !important;}
 #headers-footers-enabled{border-radius: 0 !important;}
 #backgrounds-enabled{border-radius: 0 !important;}
-
-
