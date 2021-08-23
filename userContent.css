@@ -98,6 +98,11 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   listheader {border-radius: 0 !important;}
   #handlersView {border-radius: 0 !important;}
 
+
+  /* input and info boxes on sync page */
+  #fxaSyncComputerName {border-radius: 0 !important;}
+  .sync-configured {border-radius: 0 !important;}
+
 }
 
 
