@@ -141,10 +141,10 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 
 
 /* should square the +/- zoom buttons, but doesnt */
-#appMenu-zoomReduce-button2 > .toolbarbutton-icon,
+/* #appMenu-zoomReduce-button2 > .toolbarbutton-icon,
 #appMenu-zoomEnlarge-button2 > .toolbarbutton-icon {
   border-radius: 0 !important;
-}
+} */
 
 
 
@@ -172,9 +172,13 @@ select {border-radius: 0 !important;}
 
 
 /* tooltips */
-.places-tooltip-box {
-  border-radius: 0 !important;
-}
+.places-tooltip-box {border-radius: 0 !important;}
+
+
+/* autosave password notification input fields */
+#password-notification-username {border-radius: 0 !important;}
+#password-notification-password {border-radius: 0 !important;}
+
 
 
 
