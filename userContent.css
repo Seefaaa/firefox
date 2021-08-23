@@ -53,36 +53,22 @@
 @-moz-document url(about:preferences), url(about:preferences#general), url(about:preferences#home),
 url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), url(about:addons){
   /* square checkboxes */
-  .checkbox-check{
-    border-radius: 0 !important;
-  }
+  .checkbox-check {border-radius: 0 !important;}
 
 
   /* square search box */
-  search-textbox{
-    border-radius: 0 !important;
-  }
+  search-textbox {border-radius: 0 !important;}
 
 
   /* square selection buttons */
-  button{
-    border-radius: 0 !important;
-  }
-  richlistitem{
-    border-radius: 0 !important;
-  }
-  menulist{
-    border-radius: 0 !important;
-  }
-  .sidebar-footer-link {
-    border-radius: 0 !important;
-  }
+  button {border-radius: 0 !important;}
+  richlistitem {border-radius: 0 !important;}
+  menulist {border-radius: 0 !important;}
+  .sidebar-footer-link {border-radius: 0 !important;}
 
 
   /* square search engines table on about:preferences#search page */
-  #engineList{
-    border-radius: 0 !important;
-  }
+  #engineList {border-radius: 0 !important;}
 
 
   /* Tracking Protection options on about:preferences#privacy page */
@@ -102,7 +88,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* input and info boxes on sync page */
   #fxaSyncComputerName {border-radius: 0 !important;}
   .sync-configured {border-radius: 0 !important;}
-
 }
 
 
@@ -134,7 +119,7 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 
 /* DOWNLOADS ------------------------------------------------------------------------------------------------ */
 
-@-moz-document url(about:downloads){
+@-moz-document url(about:downloads) {
   /* square buttons and boxes*/
   .button-box {border-radius: 0 !important;}
   richlistbox {border-radius: 0 !important;}
