@@ -91,6 +91,13 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 
   /* infobox for settings required by addon (i.e. container tabs) */
   #browserContainersExtensionContent {border-radius: 0 !important;}
+
+
+  /* folder selection and table for Files and Applications */
+  #downloadFolder {border-radius: 0 !important;}
+  listheader {border-radius: 0 !important;}
+  #handlersView {border-radius: 0 !important;}
+
 }
 
 
