@@ -83,6 +83,10 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   #engineList{
     border-radius: 0 !important;
   }
+
+
+  /* Tracking Protection options on about:preferences#privacy page */
+  .content-blocking-category{border-radius: 0 !important;}
 }
 
 
