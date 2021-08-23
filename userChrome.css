@@ -2,9 +2,7 @@
 
 /* sets the height of the tab toolbar
 otherwise will change height when tabs overflow */
-#TabsToolbar {
-  height: 33px !important;
-}
+#TabsToolbar {height: 33px !important;}
 :root{
   --tab-min-height: 33px !important;
 }
@@ -41,9 +39,7 @@ otherwise will change height when tabs overflow */
 
 
   /* neighbouring tabs should "pinch" together */
-  .tabbrowser-tab {
-    padding-inline: 0 !important;
-  }
+  .tabbrowser-tab {padding-inline: 0 !important;}
 
 
   /* Unselected Tab - Divide line */
@@ -59,12 +55,9 @@ otherwise will change height when tabs overflow */
     opacity: 0 !important;
     transition: opacity 1s var(--ease-basic) !important;
   }
-    .tab-content::before {
-    left: 0 !important;
-  }
-  .tab-content::after {
-    right: 0 !important;
-  }
+  .tab-content::before {left: 0 !important;}
+  .tab-content::after {right: 0 !important;}
+
   .tabbrowser-tab[visuallyselected][style*=transform] + .tabbrowser-tab[style*=transform] .tab-content::after,
   .tabbrowser-tab[style*=transform]:not([visuallyselected]) .tab-content::before,
   .tabbrowser-tab[style*=transform] + .tabbrowser-tab:not([visuallyselected]) .tab-content::before,
@@ -83,9 +76,7 @@ otherwise will change height when tabs overflow */
 
 /* reduce height of navbar/urlbar to remove unnecessary white space
 and more closely match the height of quantum's compact density */
-#nav-bar {
-  height: 35px !important;
-}
+#nav-bar {height: 35px !important;}
 
 
 :root{
@@ -135,7 +126,7 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 
 /* square the fullscreen and zoom reset */
 #appMenu-zoomReset-button2 > .toolbarbutton-text,
-#appMenu-fullscreen-button2 > .toolbarbutton-icon{
+#appMenu-fullscreen-button2 > .toolbarbutton-icon {
   border-radius: 0 !important;
 }
 
