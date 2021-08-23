@@ -185,10 +185,25 @@ select {border-radius: 0 !important;}
 toolbarbutton {border-radius: 0 !important;}
 
 
+
+
+
+
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
 /* download progressbar specifically for addons */
+#addon-progress-notification-progressmeter {border-radius: 0 !important;}
+#addon-progress-notification-progresstext {border-radius: 0 !important;}
+#addon-progress-notification {border-radius: 0 !important;}
+html:progress {border-radius: 0 !important;}
+progress::-moz-progress-bar {border-radius: 0 !important;}
+progress {border-radius: 0 !important;}
+progress::-webkit-progress-bar {border-radius: 0 !important;}
+progress::-webkit-progress-value {border-radius: 0 !important;}
+
 /* radio buttons maybe? */
 /* export buttons in about:certificates */
+
+
 
 
