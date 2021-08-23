@@ -180,6 +180,9 @@ select {border-radius: 0 !important;}
 #password-notification-password {border-radius: 0 !important;}
 
 
+/* searchbox and buttons in find bar (ctrl+F) */
+.findbar-textbox {border-radius: 0 !important;}
+toolbarbutton {border-radius: 0 !important;}
 
 
 /* TODO --------------------------------------------------------------------------------------------- */
@@ -187,8 +190,5 @@ select {border-radius: 0 !important;}
 /* download progressbar specifically for addons */
 /* radio buttons maybe? */
 /* export buttons in about:certificates */
-
-
-
 
 
