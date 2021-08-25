@@ -97,7 +97,28 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 /* ADDONS PAGE --------------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:addons) {
-  *{border-radius: 0 !important;}
+  /* square search box */
+  search-textbox {border-radius: 0 !important;}
+
+  /* square the context menus (3 dots and settings gear) */
+  panel-list {border-radius: 0 !important;}
+
+
+  /* square the info boxes / banners */
+  .discopane-notice {border-radius: 0 !important;}
+  .container {border-radius: 0 !important;}
+
+
+  /* square the addons and theme cards */
+  .card-heading-image {border-radius: 0 !important;}
+  .card {border-radius: 0 !important;}
+
+
+  /* square selection buttons */
+  button {border-radius: 0 !important;}
+  richlistitem {border-radius: 0 !important;}
+  menulist {border-radius: 0 !important;}
+  .sidebar-footer-link {border-radius: 0 !important;}
 
 
   /* square toggle buttons */
