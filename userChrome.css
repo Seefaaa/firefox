@@ -100,7 +100,7 @@ and more closely match the height of quantum's compact density */
   --arrowpanel-menuitem-border-radius: 0 !important;
   --arrowpanel-border-radius: 0 !important;
   --tab-border-radius: 0 !important;
-  --subviewbutton-border-radius: 0 
+  --subviewbutton-border-radius: 0 !important;
 }
 
 
