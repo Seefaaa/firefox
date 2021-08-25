@@ -191,6 +191,7 @@ toolbarbutton {border-radius: 0 !important;}
 
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
+
 /* download progressbar specifically for addons */
 /* #addon-progress-notification-progressmeter {border-radius: 0 !important;}
 #addon-progress-notification-progresstext {border-radius: 0 !important;}
@@ -202,6 +203,11 @@ progress::-webkit-progress-bar {border-radius: 0 !important;}
 progress::-webkit-progress-value {border-radius: 0 !important;} */
 
 /* radio buttons maybe? */
+/* input[type="radio"], input[type="radio"]:checked {border-radius: 0 !important;}
+radio buttons use background-image: url("chrome://global/skin/icons/radio.svg");
+need to replace with square
+*/
+
 /* export buttons in about:certificates */
 
 
