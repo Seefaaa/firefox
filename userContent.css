@@ -89,6 +89,7 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* input and info boxes on sync page */
   #fxaSyncComputerName {border-radius: 0 !important;}
   .sync-configured {border-radius: 0 !important;}
+  .fxaProfileImage {border-radius: 0 !important;}
 }
 
 
