@@ -123,6 +123,10 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 
   /* square toggle buttons */
   .toggle-button, .toggle-button::before {border-radius: 0 !important;}
+
+
+  /* square radio buttons - WIP */
+  /* input[type="radio"], input[type="radio"]:checked {border-radius: 0 !important;} */
 }
 
 
@@ -134,6 +138,7 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* square everything except radio buttons */
   #about-config-search {border-radius: 0 !important;}
   #about-config-show-only-modified {border-radius: 0 !important;}
+  #showWarningNextTime {border-radius: 0 !important;}
   button {border-radius: 0 !important;}
 }
 
