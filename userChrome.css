@@ -104,6 +104,11 @@ and more closely match the height of quantum's compact density */
 }
 
 
+/* squares the profile picture on toolbar if logged into sync */
+#fxa-avatar-image {border-radius: 0 !important;}
+
+
+
 
 
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
