@@ -169,11 +169,12 @@ button {border-radius: 0 !important;}
 select {border-radius: 0 !important;}
 
 
-/* square selections and checkboxes on the print page */
+/* square selections, checkboxes, and nav buttons on the print page */
 .toggle-group-label {border-radius: 0 !important;} 
 .photon-number {border-radius: 0 !important;}
 #headers-footers-enabled {border-radius: 0 !important;}
 #backgrounds-enabled {border-radius: 0 !important;}
+.toolbarButton:not(:hover) {background-color: #2b2a33 !important;}
 
 
 /* tooltips */
