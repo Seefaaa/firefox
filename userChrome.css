@@ -163,6 +163,7 @@ button {border-radius: 0 !important;}
 
 /* square checkboxes */
 .checkbox-check {border-radius: 0 !important;}
+#checkbox {border-radius: 0 !important;}
 
 
 /* square dropdown selection boxes */
@@ -190,6 +191,11 @@ select {border-radius: 0 !important;}
 .findbar-textbox {border-radius: 0 !important;}
 toolbarbutton {border-radius: 0 !important;}
 
+
+
+/* certain new folder and login field popup dialogs */
+#loginTextbox {border-radius: 0 !important;}
+#password1Textbox {border-radius: 0 !important;}
 
 
 
