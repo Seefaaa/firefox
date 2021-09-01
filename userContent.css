@@ -165,3 +165,8 @@ url(about:profiling), url(about:protections), url(about:serviceworkers), url(abo
 url(about:support), url(about:telemetry), url(about:url-classifier), url(about:webrtc), url(about:welcome) {
   *{border-radius: 0 !important;}
 }
+
+
+/* :host, :root {
+  --in-content-primary-button-background: #0a84ff !important;
+} */
