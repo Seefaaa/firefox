@@ -170,3 +170,20 @@ url(about:support), url(about:telemetry), url(about:url-classifier), url(about:w
 /* :host, :root {
   --in-content-primary-button-background: #0a84ff !important;
 } */
+
+
+
+
+/* SCREENSHOT PAGE ------------------------------------------------------------------------------------------ */
+
+@supports (-moz-appearance:none) {
+  .cancel-shot {border-radius: 0 !important;}
+  .all-buttons-container {border-radius: 0 !important;}
+  .visible {border-radius: 0 !important;}
+  .full-page {border-radius: 0 !important;}
+  .highlight-button-cancel {border-radius: 0 !important;}
+  .highlight-button-copy {border-radius: 0 !important;}
+  .highlight-button-download {border-radius: 0 !important;}
+  .preview-buttons {border-radius: 0 !important;}
+  .preview-image-wrapper {border-radius: 0 !important;}
+}
