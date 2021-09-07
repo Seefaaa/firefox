@@ -127,6 +127,8 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 #editBMPanel_namePicker {border-radius: 0 !important;}
 #editBMPanel_folderMenuList {border-radius: 0 !important;}
 #editBMPanel_tagsField {border-radius: 0 !important;}
+#editBMPanel_locationField {border-radius: 0 !important;}
+#editBMPanel_keywordField {border-radius: 0 !important;}
 
 
 /* square off aspects of the download menu (i.e. selection boxes, open in folder button) */
@@ -136,6 +138,9 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 /* square off the toggle switch for "enhanced tracking protection" */
 .protections-popup-tp-switch, .protections-popup-tp-switch::before {border-radius: 0 !important;}
 
+
+/* square the permissions popup (e.g. autoplay blocked) */
+#permission-popup-menulist {border-radius: 0 !important;}
 
 
 /* square the fullscreen and zoom reset */
