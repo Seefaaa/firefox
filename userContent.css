@@ -187,3 +187,10 @@ url(about:support), url(about:telemetry), url(about:url-classifier), url(about:w
   .preview-buttons {border-radius: 0 !important;}
   .preview-image-wrapper {border-radius: 0 !important;}
 }
+
+
+
+/* Restart Firefox page after update */
+@supports (-moz-appearance:none) {
+  #restart {border-radius: 0 !important;}
+}
