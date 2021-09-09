@@ -13,20 +13,15 @@
 ## Features
 
 **Tab Design**
-  - General:
-    - Connect with toolbar (Buttons like tabs)
-    - Square corners
-    - No spacer on left tab bar when windowed
-  - Selected:
-    - Add colored tab context line above selected tab
-  - Unselected:
-    - Divide Line: full height and colored like Quantum
-    - Remove white space between tabs
+  - Square corners
+  - Connect with toolbar (no floating tabs)
+  - No spacer on left tab bar when windowed
+  - Colored tab context line above selected tab
+  - Divide Line between tabs
 
 **Menu Design**
-  - General:
-    - Square corners on most popup menus
-
+  - Square corners on most popup menus
+  - Square toggle buttons
       
   
 ## How to Install?
