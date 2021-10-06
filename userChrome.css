@@ -85,7 +85,8 @@ otherwise will change height when tabs overflow */
 
 /* reduce height of navbar/urlbar to remove unnecessary white space
 and more closely match the height of quantum's compact density */
-#nav-bar {height: 35px !important;}
+#nav-bar {height: 35px !important}
+#search-container {height: 35px !important; padding-top: 0!important;}
 
 
 :root{
