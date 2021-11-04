@@ -41,6 +41,10 @@
     /* square all the recent activity cards and images */
     .card-outer {border-radius: 0 !important;}
     .card-preview-image-outer {border-radius: 0 !important;}
+    
+    
+    /* square the VPN button in private browsing */
+    #private-browsing-vpn-link {border-radius: 0 !important;}
 }
 
 
