@@ -134,6 +134,9 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 
 /* square off aspects of the download menu (i.e. selection boxes, open in folder button) */
 .download-state, .downloadButton {border-radius: 0 !important;}
+/* .downloadProgress {border-radius: 0 !important;}
+.downloadContainer, .downloadTarget, .downloadDetails, .downloadDetailsNormal {border-radius: 0 !important;}
+progress {border-radius: 0 !important;} */
 
 
 /* square off the toggle switch for "enhanced tracking protection" */
@@ -204,7 +207,10 @@ toolbarbutton {border-radius: 0 !important;}
 #password1Textbox {border-radius: 0 !important;}
 
 
-
+/* density options in "Customize Toolbar" */
+#customization-uidensity-menuitem-compact {border-radius: 0 !important;}
+#customization-uidensity-menuitem-normal {border-radius: 0 !important;}
+#customization-uidensity-menuitem-touch {border-radius: 0 !important;}
 
 
 /* TODO --------------------------------------------------------------------------------------------- */
