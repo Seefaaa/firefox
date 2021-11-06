@@ -166,14 +166,10 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 url(about:debugging#/setup), url(about:debugging#/runtime/this-firefox), url(about:devtools), 
  url(about:logins), url(about:networking), url(about:policies), url(about:profiles),
 url(about:profiling), url(about:protections), url(about:serviceworkers), url(about:studies), 
-url(about:support), url(about:telemetry), url(about:url-classifier), url(about:webrtc), url(about:welcome) {
+url(about:support), url(about:telemetry), url(about:unloads), url(about:url-classifier), 
+url(about:webrtc), url(about:welcome) {
   *{border-radius: 0 !important;}
 }
-
-
-/* :host, :root {
-  --in-content-primary-button-background: #0a84ff !important;
-} */
 
 
 
