@@ -190,7 +190,13 @@ url(about:webrtc), url(about:welcome) {
 
 
 
-/* Restart Firefox page after update */
+/* SERVER NOT FOUND PAGE */
+@supports (-moz-appearance:none) {
+  .primary.try-again {border-radius: 0 !important;}
+}
+
+
+/* Restart Firefox page after update ------------------------------------------------------------------------- */
 @supports (-moz-appearance:none) {
   #restart {border-radius: 0 !important;}
 }
