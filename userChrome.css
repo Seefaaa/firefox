@@ -188,6 +188,7 @@ select {border-radius: 0 !important;}
 
 
 /* tooltips */
+tooltip {border-radius: 0 !important;}
 .places-tooltip-box {border-radius: 0 !important;}
 
 
@@ -211,6 +212,10 @@ toolbarbutton {border-radius: 0 !important;}
 #customization-uidensity-menuitem-compact {border-radius: 0 !important;}
 #customization-uidensity-menuitem-normal {border-radius: 0 !important;}
 #customization-uidensity-menuitem-touch {border-radius: 0 !important;}
+
+
+/* square popup when entering full screen video */
+#fullscreen-warning {border-radius: 0 !important;}
 
 
 /* TODO --------------------------------------------------------------------------------------------- */
