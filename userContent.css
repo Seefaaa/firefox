@@ -196,6 +196,16 @@ url(about:webrtc), url(about:welcome) {
 }
 
 
+/* WARNING SECURITY RISK PAGE */
+@supports (-moz-appearance:none) {
+  .primary.try-again {border-radius: 0 !important;}
+  #returnButton {border-radius: 0 !important;}
+  #advancedButton {border-radius: 0 !important;}
+  #exceptionDialogButton {border-radius: 0 !important;}
+  #advancedPanelReturnButton {border-radius: 0 !important;}
+}
+
+
 /* Restart Firefox page after update ------------------------------------------------------------------------- */
 @supports (-moz-appearance:none) {
   #restart {border-radius: 0 !important;}
