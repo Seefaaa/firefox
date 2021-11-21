@@ -114,17 +114,18 @@
 url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), url(about:addons){
   /* square checkboxes */
   .checkbox-check {border-radius: 0 !important;}
-
-
-  /* square search box */
-  search-textbox {border-radius: 0 !important;}
+  #automaticallySubmitCrashesBox {border-radius: 0 !important;}
 
 
   /* square selection buttons */
   button {border-radius: 0 !important;}
   richlistitem {border-radius: 0 !important;}
-  menulist {border-radius: 0 !important;}
   .sidebar-footer-link {border-radius: 0 !important;}
+
+
+  /* square toggle buttons */
+  .toggle-button {border-radius: 0 !important;}
+  .toggle-button::before {border-radius: 0 !important;}
 
 
   /* square search engines table on about:preferences#search page */
@@ -136,13 +137,14 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .content-blocking-warning {border-radius: 0 !important;}
 
 
-  /* infobox for settings required by addon (i.e. container tabs) */
+  /* infoboxes (e.g. settings required by addon) */
   #browserContainersExtensionContent {border-radius: 0 !important;}
+  #firefoxSuggestInfoBox {border-radius: 0 !important;}
+  #updateSettingsContainer {border-radius: 0 !important;}
 
 
   /* folder selection and table for Files and Applications */
   #downloadFolder {border-radius: 0 !important;}
-  listheader {border-radius: 0 !important;}
   #handlersView {border-radius: 0 !important;}
 
 
@@ -151,6 +153,51 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .sync-configured {border-radius: 0 !important;}
   .fxaProfileImage {border-radius: 0 !important;}
 }
+
+
+/* square popup windows and buttons */
+@-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
+    richlistbox {border-radius: 0 !important;}
+    button {border-radius: 0 !important;}
+    .dialogBox {border-radius: 0 !important;}
+    menulist {border-radius: 0 !important;}
+    checkbox {border-radius: 0 !important;}
+    .checkbox-check {border-radius: 0 !important;}
+    listheader {border-radius: 0 !important;}
+    search-textbox {border-radius: 0 !important;}
+    #url {border-radius: 0 !important;}
+    tree {border-radius: 0 !important;}
+
+    /* network settings popup */
+    #networkProxyNone {border-radius: 0 !important;}
+    #networkProxyAutoconfigURL {border-radius: 0 !important;}
+    #networkProxySOCKS_Port {border-radius: 0 !important;}
+    #networkProxySOCKS {border-radius: 0 !important;}
+    #networkProxySSL_Port {border-radius: 0 !important;}
+    #networkProxySSL {border-radius: 0 !important;}
+    #networkProxyHTTP_Port {border-radius: 0 !important;}
+    #networkProxyHTTP {border-radius: 0 !important;}
+
+    /* saved addresses popup */
+    #given-name {border-radius: 0 !important;}
+    #family-name {border-radius: 0 !important;}
+    #street-address {border-radius: 0 !important;}
+    #address-level2 {border-radius: 0 !important;}
+    #address-level1 {border-radius: 0 !important;}
+    #postal-code {border-radius: 0 !important;}
+    #organization {border-radius: 0 !important;}
+    #country {border-radius: 0 !important;}
+    #tel {border-radius: 0 !important;}
+    #email {border-radius: 0 !important;}
+
+    /* saved credit cards popup */
+    #cc-number {border-radius: 0 !important;}
+    #cc-exp-month {border-radius: 0 !important;}
+    #cc-exp-year {border-radius: 0 !important;}
+    #cc-name {border-radius: 0 !important;}
+    #cc-type {border-radius: 0 !important;}
+}
+
 
 
 
