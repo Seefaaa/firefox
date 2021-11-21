@@ -4,7 +4,6 @@
 
 
 ![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
-*Disclaimer: Tested for Stable and Beta channels (Firefox 91+) on Linux*
 
   If you are like me and hate rounded tabs, this is for you.
   
@@ -22,6 +21,11 @@
 **Menu Design**
   - Square corners on most popup menus
   - Square toggle buttons
+
+**Custom Accent Color**
+  - Consistent accent color used across Firefox
+  - User customizable
+  - Controlled by `--custom-accent-color: #0a84ff;` in the first line of each file
       
   
 ## How to Install?
