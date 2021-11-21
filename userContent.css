@@ -19,7 +19,8 @@
     --in-content-item-selected: var(--custom-accent-color) !important;
     --in-content-border-highlight: var(--custom-accent-color) !important;
     --in-content-border-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
-    --in-content-border-focus: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+    /* --in-content-border-focus: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important; */
+    --in-content-border-focus: var(--custom-accent-color) !important;
     --in-content-border-active: var(--custom-accent-color) !important;
     --in-content-border-active-shadow: var(--custom-accent-color) !important;
     --in-content-category-outline-focus: 1px solid transparent !important;
@@ -29,6 +30,7 @@
     --newtab-focus-border: var(--in-content-border-focus) !important;
     --newtab-focus-border-selected: var(--custom-accent-color) !important;
     --newtab-textbox-focus-color: var(--in-content-border-focus) !important;
+    --newtab-primary-action-background: var(--custom-accent-color) !important;
   }
 }
 
@@ -52,7 +54,7 @@
 }
 
 
-
+  
 
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
