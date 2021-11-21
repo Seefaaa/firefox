@@ -1,3 +1,49 @@
+/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
+/* change the hex value of --custom-accent-color */
+
+:root {
+    --custom-accent-color: #0a84ff;
+}
+
+:root {
+    --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color) !important;
+    --button-primary-bgcolor: var(--custom-accent-color) !important;
+    --button-primary-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
+    --button-primary-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+    /* --button-primary-color: var(--custom-button-text-color) !important; */
+}
+
+.urlbarView-url { color: var(--custom-accent-color) !important; }
+:root {
+  --buttons-primary-button-bgcolor: var(--custom-accent-color) !important;
+  --buttons-primary-button-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
+  --buttons-primary-button-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+  --checkbox-checked-bgcolor: var(--custom-accent-color) !important;
+  --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
+  --checkbox-checked-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+  --lwt-popup-brighttext-url-color: var(--custom-accent-color) !important;
+  --focus-outline-color: var(--custom-accent-color) !important;
+  /*Star Highlight & Download Finished*/
+  --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color) !important;
+}
+
+/* colors various popup windows (e.g. edit bookmarks, close window menus) */
+@-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
+  html:not([role="dialog"]),
+  html:not([role="dialog"]) *,
+  html:not([role="dialog"]) body.activity-stream,
+  window:not([chromehidden]),
+  window:not([chromehidden]) > dialog
+  {
+    --in-content-primary-button-background: var(--custom-accent-color) !important;
+    --in-content-primary-button-background-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
+    --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+  }
+}
+
+
+
+
 /* TAB BAR ------------------------------------------------------------------------------------------------- */
 
 /* sets the height of the tab toolbar
@@ -33,7 +79,7 @@ otherwise will change height when tabs overflow */
 
   /* adds the little colored strip on top of the selected tab */
   .tab-background:is([selected],[multiselected]) {
-	  box-shadow: inset 0 2px #0a84ff !important;
+	  box-shadow: inset 0 2px var(--custom-accent-color) !important;
   }
 
 
