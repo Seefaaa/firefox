@@ -246,8 +246,22 @@ select {border-radius: 0 !important;}
 
 
 /* tooltips */
-tooltip {border-radius: 0 !important;}
-.places-tooltip-box {border-radius: 0 !important;}
+/* disabled for now, not all tooltips can be changed with css */
+/* see https://old.reddit.com/r/FirefoxCSS/comments/dwpykf/problems_with_styling_tooltips/f80dnv8/ */
+/* #tabbrowser-tab-tooltip,
+#btTooltip,
+#un-toolbar-tooltip,
+#tooltip,
+.tooltip,
+#aHTMLTooltip,
+#urlTooltip,
+#bhTooltip,
+.places-tooltip-box,
+.tooltip-label,
+tooltip {
+	-moz-appearance: none !important;
+	border-radius: 0 !important;
+} */
 
 
 /* autosave password notification input fields */
