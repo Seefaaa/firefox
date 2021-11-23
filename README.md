@@ -25,8 +25,9 @@
 **Custom Accent Color**
   - Consistent accent color used across Firefox
   - User customizable
-  - Controlled by `--custom-accent-color: #0a84ff;` in the first line of each file
-  - Default: dark blue #0a84ff
+  - Controlled by `--custom-accent-color: <insert color here>;` in the first line of each file
+  - Default: dark blue (#0a84ff)
+  - Use hex color code (e.g. #FF00FF) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
       
   
 ## How to Install?
