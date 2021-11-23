@@ -181,9 +181,27 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 
 /* square off aspects of the download menu (i.e. selection boxes, open in folder button) */
 .download-state, .downloadButton {border-radius: 0 !important;}
-/* .downloadProgress {border-radius: 0 !important;}
-.downloadContainer, .downloadTarget, .downloadDetails, .downloadDetailsNormal {border-radius: 0 !important;}
-progress {border-radius: 0 !important;} */
+
+.downloadProgress {
+  border-radius: 0 !important;
+  overflow: hidden !important;
+}
+
+.downloadProgress[paused] {
+  border-radius: 0 !important;
+}
+
+.downloadProgress:not([value="0"])::-moz-progress-bar {
+  border-radius: 0 !important;
+}
+
+.downloadProgress::-moz-progress-bar {
+  border-radius: 0 !important;
+}
+
+.downloadProgress[paused]::-moz-progress-bar {
+  border-radius: 0 !important;
+}
 
 
 /* square off the toggle switch for "enhanced tracking protection" */
@@ -199,13 +217,6 @@ progress {border-radius: 0 !important;} */
 #appMenu-fullscreen-button2 > .toolbarbutton-icon {
   border-radius: 0 !important;
 }
-
-
-/* should square the +/- zoom buttons, but doesnt */
-/* #appMenu-zoomReduce-button2 > .toolbarbutton-icon,
-#appMenu-zoomEnlarge-button2 > .toolbarbutton-icon {
-  border-radius: 0 !important;
-} */
 
 
 
