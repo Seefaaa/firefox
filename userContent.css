@@ -96,8 +96,9 @@
     .card-preview-image-outer {border-radius: 0 !important;}
     
     
-    /* square the VPN button in private browsing */
+    /* square the VPN button/infobox in private browsing */
     #private-browsing-vpn-link {border-radius: 0 !important;}
+    .info {border-radius: 0 !important;}
 }
 
 
