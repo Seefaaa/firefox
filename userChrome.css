@@ -21,6 +21,7 @@
   --checkbox-checked-bgcolor: var(--custom-accent-color) !important;
   --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
   --checkbox-checked-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+  --lwt-brighttext-url-color: var(--custom-accent-color) !important;
   --lwt-popup-brighttext-url-color: var(--custom-accent-color) !important;
   --focus-outline-color: var(--custom-accent-color) !important;
   /*Star Highlight & Download Finished*/
@@ -284,4 +285,3 @@ need to replace with square
 */
 
 /* export buttons in about:certificates */
-
