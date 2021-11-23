@@ -294,14 +294,22 @@ url(about:webrtc), url(about:welcome) {
 }
 
 
+/* picture in picture button */
 
-/* SERVER NOT FOUND PAGE */
+@supports (-moz-appearance:none) {
+  .pip-small.clickable {border-radius: 0 !important;}
+}
+
+
+/* SERVER NOT FOUND PAGE ------------------------------------------------------------------------------------- */
+
 @supports (-moz-appearance:none) {
   .primary.try-again {border-radius: 0 !important;}
 }
 
 
-/* WARNING SECURITY RISK PAGE */
+/* WARNING SECURITY RISK PAGE --------------------------------------------------------------------------------- */
+
 @supports (-moz-appearance:none) {
   .primary.try-again {border-radius: 0 !important;}
   #returnButton {border-radius: 0 !important;}
@@ -312,6 +320,7 @@ url(about:webrtc), url(about:welcome) {
 
 
 /* Restart Firefox page after update ------------------------------------------------------------------------- */
+
 @supports (-moz-appearance:none) {
   #restart {border-radius: 0 !important;}
 }
