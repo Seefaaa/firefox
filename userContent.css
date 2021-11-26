@@ -94,6 +94,7 @@
     /* square all the recent activity cards and images */
     .card-outer {border-radius: 0 !important;}
     .card-preview-image-outer {border-radius: 0 !important;}
+    .card-context {border-radius: 0 !important;}
     
     
     /* square the VPN button/infobox in private browsing */
