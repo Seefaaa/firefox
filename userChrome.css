@@ -211,6 +211,11 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 /* square the permissions popup (e.g. autoplay blocked) */
 #permission-popup-menulist {border-radius: 0 !important;}
 
+/* square permission popups for webRTC (screen sharing and voice) */
+#webRTC-selectMicrophone-menulist {border-radius: 0 !important;}
+#webRTC-selectWindow-menulist {border-radius: 0 !important;}
+#webRTC-previewVideo {border-radius: 0 !important;}
+
 
 /* square the fullscreen and zoom reset */
 #appMenu-zoomReset-button2 > .toolbarbutton-text,
