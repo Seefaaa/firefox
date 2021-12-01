@@ -95,6 +95,7 @@
     .card-outer {border-radius: 0 !important;}
     .card-preview-image-outer {border-radius: 0 !important;}
     .card-context {border-radius: 0 !important;}
+    .sections-list, .section-empty-state {border-radius: 0 !important;}
     
     
     /* square the VPN button/infobox in private browsing */
