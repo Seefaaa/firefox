@@ -1,9 +1,22 @@
-/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
-/* change the hex value of --custom-accent-color */
+/* USER FACING VARIABLES ------------------------------------------------------------------------------------- */
 
+/* change the hex value of --custom-accent-color */
 :root {
-    --custom-accent-color: #0a84ff;
+  --custom-accent-color: #0a84ff;
 }
+
+
+/* comment out following code block to override default titlebar buttons with mozilla themed ones */
+.titlebar-button {
+  appearance: auto !important;
+}
+.titlebar-min:-moz-lwtheme, .titlebar-max:-moz-lwtheme, .titlebar-restore:-moz-lwtheme, .titlebar-close:-moz-lwtheme {
+  list-style-image: none !important;
+}
+
+
+
+/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
 :root {
     --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color) !important;
