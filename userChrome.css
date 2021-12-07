@@ -15,6 +15,18 @@
 }
 
 
+/* sets the height of the tabs toolbar */
+:root{
+  --tab-bar-height: 33px;
+}
+
+
+/* reverts nav bar height to firefox controlled */
+/* change variable to 35px for previous behavior, may be deprecated */
+/* firefox compact workaround recommended instead */
+:root{
+  --nav-bar-height: auto;
+}
 
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
@@ -62,9 +74,9 @@
 
 /* sets the height of the tab toolbar
 otherwise will change height when tabs overflow */
-#TabsToolbar {height: 33px !important;}
+#TabsToolbar {height: var(--tab-bar-height) !important;}
 :root{
-  --tab-min-height: 33px !important;
+  --tab-min-height: var(--tab-bar-height) !important;
 }
 
 
@@ -145,8 +157,8 @@ otherwise will change height when tabs overflow */
 
 /* reduce height of navbar/urlbar to remove unnecessary white space
 and more closely match the height of quantum's compact density */
-#nav-bar {height: 35px !important}
-#search-container {height: 35px !important; padding-top: 0!important;}
+#nav-bar, #urlbar-container, #urlbar {height: var(--nav-bar-height) !important}
+#search-container {height: var(--nav-bar-height) !important; /*padding-top: 0!important;*/}
 
 
 :root{
