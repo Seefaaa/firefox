@@ -119,6 +119,11 @@ otherwise will change height when tabs overflow */
 }
 
 
+/* realign the selected tab so it doesnt droop down by 2px */
+.tabbrowser-tab[visuallyselected="true"]{
+  z-index: 0 !important;
+}
+
 
 /* neighbouring tabs should "pinch" together */
 .tabbrowser-tab {padding-inline: 0 !important;}
