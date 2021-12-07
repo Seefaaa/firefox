@@ -21,13 +21,6 @@
 }
 
 
-/* reverts nav bar height to firefox controlled */
-/* change variable to 35px for previous behavior, may be deprecated */
-/* firefox compact workaround recommended instead */
-:root{
-  --nav-bar-height: auto;
-}
-
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
 :root {
@@ -160,12 +153,6 @@ otherwise will change height when tabs overflow */
 
 
 /* NAV BAR ---------------------------------------------------------------------------------------------------- */
-
-/* reduce height of navbar/urlbar to remove unnecessary white space
-and more closely match the height of quantum's compact density */
-#nav-bar, #urlbar-container, #urlbar {height: var(--nav-bar-height) !important}
-#search-container {height: var(--nav-bar-height) !important; /*padding-top: 0!important;*/}
-
 
 :root{
   /* reduce padding between menu items */
