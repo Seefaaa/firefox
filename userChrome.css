@@ -61,6 +61,11 @@
 }
 
 
+/* potentially color the update/info dot in app menu */
+:root{
+  --panel-banner-item-info-icon-bgcolor: var(--custom-accent-color) !important;
+}
+
 
 
 /* TAB BAR ------------------------------------------------------------------------------------------------- */
