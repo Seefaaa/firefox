@@ -33,8 +33,10 @@
   --lwt-brighttext-url-color: var(--custom-accent-color) !important;
   --lwt-popup-brighttext-url-color: var(--custom-accent-color) !important;
   --focus-outline-color: var(--custom-accent-color) !important;
+  --toolbar-field-focus-border-color: var(--custom-accent-color) !important;
   /*Star Highlight & Download Finished*/
   --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color) !important;
+  --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color) !important; 
 }
 
 /* colors various popup windows (e.g. edit bookmarks, close window menus) */
@@ -68,6 +70,10 @@
   .titlebar-min:-moz-lwtheme, .titlebar-max:-moz-lwtheme, .titlebar-restore:-moz-lwtheme, .titlebar-close:-moz-lwtheme {
     list-style-image: none !important;
   }
+  .titlebar-button:-moz-lwtheme:hover, .titlebar-button:-moz-lwtheme:hover:active {
+  background-color: unset !important;
+  color: unset !important;
+}
 }
 
 
@@ -154,10 +160,6 @@ otherwise will change height when tabs overflow */
 {
   opacity: var(--tab-separator-opacity) !important;
 }
-
-   
-
-
 
 
 /* NAV BAR ---------------------------------------------------------------------------------------------------- */
@@ -332,11 +334,4 @@ notification-message {border-radius: 0 !important;}
 
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
-
-/* radio buttons maybe? */
-/* input[type="radio"], input[type="radio"]:checked {border-radius: 0 !important;}
-radio buttons use background-image: url("chrome://global/skin/icons/radio.svg");
-need to replace with square
-*/
-
 /* export buttons in about:certificates */
