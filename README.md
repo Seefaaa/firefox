@@ -7,7 +7,7 @@
 
   If you are like me and hate rounded corners, this is for you.
   
-  These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI. As of FF91, the about:config option to disable proton ("browser.proton.enabled = false") has been deprecated, leaving CSS as the main way to revert the UI.
+  These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI. As of FF91, the `about:config` option to disable proton (`browser.proton.enabled` = `false`) has been deprecated, leaving CSS as the main way to revert the UI.
 
 ## Features
 
@@ -23,8 +23,7 @@
   - Square toggle buttons
 
 **Custom Accent Color**
-  - Consistent accent color used across Firefox
-  - User customizable
+  - Consistent, user customizable accent color across Firefox
   - Controlled by `--custom-accent-color: <insert color here>;` in the first line of each file
   ![accent color in code](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/accent_color_code.png)
   - Default: dark blue (#0a84ff)
@@ -43,7 +42,7 @@
      - Open Profile Directory
   3. Copy Files
      - create `chrome` directory at profile
-     - download the `userChrome.css` and `userContent.css` files from this repository
+     - download the `userChrome.css` and `userContent.css` files from the latest release
      - copy the files into the `chrome` directory
   4. Restart Firefox
 
@@ -51,23 +50,18 @@
  
 
 ## Suggested Tweaks 
-`about:config`
+**`about:config`**
   - set `browser.tabs.tabMinWidth` to `150` px or desired width
   - set `widget.non-native-theme.gtk.scrollbar.round-thumb` to `false` to square the scrollbar (linux only)
   - change `layout.css.devPixelsPerPx` to scale the whole browser (1.0 represents 100% scaling)
   - re-enable compact density by setting `browser.compactmode.show` to `true`
 
-Use default window controls (linux)
-  - FF96 uses Windows style buttons when in title bar
+**Custom Preferences (`about:config`)**
+  - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
   - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
-  - To revert to system buttons, go to `about:config`, create the pref `browser.windowcontrolbuttons.overwrite` = `true`, and restart to apply changes'
-  - Set pref to `false` to undo the change
+  - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
 
-Re-round sync profile picture
-  - In `about:config`, create the pref `browser.syncavatar.round` = `true` and restart
-  - Set to `false` to have a square picture again
-
-Addons
+**Addons**
   - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or similar for editing webpage CSS
   - create custom rules to apply `*{border-radius: 0 !important}` to square *most* elements on webpages
   - *may result in webpage breakages, apply at own risk*
