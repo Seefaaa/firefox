@@ -153,7 +153,14 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   #fxaSyncComputerName {border-radius: 0 !important;}
   .sync-configured {border-radius: 0 !important;}
   .fxaProfileImage {border-radius: 0 !important;}
+  
+  
+  /* enterprise policies infobox */
+  #policies-container{border-radius: 0 !important;}
+  
+  
 }
+
 
 
 /* square popup windows and buttons */
