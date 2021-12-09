@@ -30,11 +30,6 @@
   - Default: dark blue (#0a84ff)
   - Use hex color code (e.g. #FF00FF) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
 
-**Restores min/max/close buttons**
-  - Controlled by following code block at beginning of `userChrome.css`
-  ![min/max/close buttons in code](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/min_max_close_code.png)
-  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
-
    
   
 ## How to Install?
@@ -61,6 +56,11 @@
   - set `widget.non-native-theme.gtk.scrollbar.round-thumb` to `false` to square the scrollbar (linux only)
   - change `layout.css.devPixelsPerPx` to scale the whole browser (1.0 represents 100% scaling)
   - re-enable compact density by setting `browser.compactmode.show` to `true`
+
+Use default window controls (linux)
+  - FF96 uses Windows style buttons when in title bar
+  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
+  - To revert to system buttons, create the pref `browser.windowcontrolbuttons.overwrite` = `true` in `about:config`
 
 Addons
   - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or similar for editing webpage CSS
