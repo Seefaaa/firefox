@@ -324,6 +324,7 @@ notification-message {border-radius: 0 !important;}
 .infobar {border-radius: 0 !important;}
 
 
+/* clear history popup and warnings */
 #sanitizeDurationChoice {border-radius: 0 !important;}
 #sanitizeEverythingWarningBox {border-radius: 0 !important;}
 
