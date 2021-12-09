@@ -63,6 +63,10 @@ Use default window controls (linux)
   - To revert to system buttons, go to `about:config`, create the pref `browser.windowcontrolbuttons.overwrite` = `true`, and restart to apply changes'
   - Set pref to `false` to undo the change
 
+Re-round sync profile picture
+  - In `about:config`, create the pref `browser.syncavatar.round` = `true` and restart
+  - Set to `false` to have a square picture again
+
 Addons
   - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or similar for editing webpage CSS
   - create custom rules to apply `*{border-radius: 0 !important}` to square *most* elements on webpages
