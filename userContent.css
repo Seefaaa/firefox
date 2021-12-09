@@ -26,6 +26,8 @@
     --in-content-category-outline-focus: 1px solid transparent !important;
     --in-content-accent-color: var(--custom-accent-color) !important;
     --in-content-table-header-background: var(--custom-accent-color) !important;
+    --in-content-link-color: var(--custom-accent-color) !important;
+    --in-content-link-color-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
     --newtab-focus-outline: var(--in-content-border-active-shadow) !important;
     --newtab-focus-border: var(--in-content-border-focus) !important;
     --newtab-focus-border-selected: var(--custom-accent-color) !important;
