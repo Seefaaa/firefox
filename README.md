@@ -60,7 +60,8 @@
 Use default window controls (linux)
   - FF96 uses Windows style buttons when in title bar
   - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
-  - To revert to system buttons, create the pref `browser.windowcontrolbuttons.overwrite` = `true` in `about:config`
+  - To revert to system buttons, go to `about:config`, create the pref `browser.windowcontrolbuttons.overwrite` = `true`, and restart to apply changes'
+  - Set pref to `false` to undo the change
 
 Addons
   - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or similar for editing webpage CSS
