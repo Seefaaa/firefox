@@ -178,11 +178,10 @@ otherwise will change height when tabs overflow */
 }
 
 
-/* squares the profile picture on toolbar if logged into sync */
-#fxa-avatar-image {border-radius: 0 !important;}
-
-
-
+/* squares the profile picture on toolbar if logged into sync AND not disabled by pref */
+@supports not -moz-bool-pref("browser.syncavatar.round") {
+  #fxa-avatar-image {border-radius: 0 !important;}
+}
 
 
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
