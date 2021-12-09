@@ -23,12 +23,11 @@
   - Square toggle buttons
 
 **Custom Accent Color**
-  - Consistent, user customizable accent color across Firefox
-  - Controlled by `--custom-accent-color: <insert color here>;` in the first line of each file
-  ![accent color in code](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/accent_color_code.png)
-  - Default: dark blue (#0a84ff)
-  - Use hex color code (e.g. #FF00FF) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
+  - Consistent, customizable accent color across Firefox
 
+**Customizable**
+  - User customizable variables can be found in the `userVariables.css` file for easy access
+  - Static file retains saved preferences, does not need to be updated
    
   
 ## How to Install?
@@ -42,12 +41,28 @@
      - Open Profile Directory
   3. Copy Files
      - create `chrome` directory at profile
-     - download the `userChrome.css` and `userContent.css` files from the latest release
+     - download the `userChrome.css`, `userContent.css`, and `userVariables.css` files from the latest release
      - copy the files into the `chrome` directory
   4. Restart Firefox
 
+To update, repeat steps 2-4. `userVariables.css` does not need to be replaced.
+
 [Thunderbird is also supported.](../../wiki/Thunderbird-Install)
  
+ 
+## Custom Preferences
+**`userVariables.css`**
+  - Custom color controlled by `--custom-accent-color: <insert color here>;`
+  - Use hex color code (default: dark blue #0a84ff) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
+  - Set height of the tabs
+  - Scale the size of sync avatar
+
+**`about:config`**
+  - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
+  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
+  - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
+
+
 
 ## Suggested Tweaks 
 **`about:config`**
@@ -56,10 +71,6 @@
   - change `layout.css.devPixelsPerPx` to scale the whole browser (1.0 represents 100% scaling)
   - re-enable compact density by setting `browser.compactmode.show` to `true`
 
-**Custom Preferences (`about:config`)**
-  - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
-  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
-  - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
 
 **Addons**
   - [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) or similar for editing webpage CSS
