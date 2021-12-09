@@ -2,7 +2,7 @@
 /* change the hex value of --custom-accent-color */
 
 :root{
-  --custom-accent-color: plum;
+  --custom-accent-color: #0a84ff;
 }
 
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
