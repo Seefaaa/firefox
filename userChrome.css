@@ -1,22 +1,6 @@
-/* USER FACING VARIABLES ------------------------------------------------------------------------------------- */
+/* imports the user facing variables */
+@import url(userVariables.css);
 
-/* change the hex value of --custom-accent-color */
-:root {
-  --custom-accent-color: #0a84ff;
-}
-
-
-/* sets the height of the tabs toolbar */
-:root{
-  --tab-bar-height: 33px;
-}
-
-
-/* set the size of sync profile pic */
-/* 1.0 = 100% scale */
-:root{
-  --sync-avatar-scale: 1.0;
-}
 
 
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */

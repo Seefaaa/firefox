@@ -1,0 +1,20 @@
+/* USER FACING VARIABLES -------------------------------------------------------------------------------------- */
+/* this file does NOT have to be updated between versions */
+:root {
+
+
+/* custom accent color to be used across Firefox*/
+/* use hexcode or color name */
+  --custom-accent-color: #0a84ff;
+
+
+/* sets the height of the tabs toolbar */
+  --tab-bar-height: 33px;
+
+
+/* set the size of sync profile pic */
+/* 1.0 = 100% scale */
+  --sync-avatar-scale: 1.0;
+  
+
+} 

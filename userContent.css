@@ -1,9 +1,9 @@
-/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
-/* change the hex value of --custom-accent-color */
+/* imports the user facing variables */
+@import url(userVariables.css);
 
-:root{
-  --custom-accent-color: #0a84ff;
-}
+
+
+/* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
   html:not([role="dialog"]),
