@@ -96,6 +96,7 @@
     
 
     /* square all the recent activity cards and images */
+    .card {border-radius: 0 !important;}
     .card-outer {border-radius: 0 !important;}
     .card-preview-image-outer {border-radius: 0 !important;}
     .card-context {border-radius: 0 !important;}
