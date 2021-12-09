@@ -12,6 +12,13 @@
 }
 
 
+/* set the size of sync profile pic */
+/* 1.0 = 100% scale */
+:root{
+  --sync-avatar-scale: 1.0;
+}
+
+
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
 :root {
@@ -184,6 +191,9 @@ otherwise will change height when tabs overflow */
 @supports not -moz-bool-pref("browser.syncavatar.round") {
   #fxa-avatar-image {border-radius: 0 !important;}
 }
+
+/* scales the profile picture, since it is quite small */
+#fxa-avatar-image {transform: scale(var(--sync-avatar-scale)) !important;}
 
 
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
