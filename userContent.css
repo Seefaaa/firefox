@@ -2,7 +2,7 @@
 /* change the hex value of --custom-accent-color */
 
 :root{
-  --custom-accent-color: #0a84ff;
+  --custom-accent-color: plum;
 }
 
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
@@ -53,6 +53,8 @@
   box-shadow: 0 0 0 2px var(--newtab-focus-outline) !important;
 }
   
+::-moz-progress-bar{background-color: var(--custom-accent-color) !important;}
+
 
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
@@ -209,14 +211,21 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
     #message {border-radius: 0 !important;}
     #pw1 {border-radius: 0 !important;}
     #pw2 {border-radius: 0 !important;}
-    /* #pwmeter {
-      border-radius: 0 !important;
-      overflow: hidden !important;
+    #pwmeter {
+      appearance: none !important;
+      height: 0.35em !important;
       border: none !important;
-    } */
+      vertical-align: 0 !important;
+      margin: 0.5em 0 !important;
+    }
+
+    /* custom color selection */
+    #foregroundtextmenu {border-radius: 0 !important;}
+    #backgroundmenu {border-radius: 0 !important;}
+    #unvisitedlinkmenu {border-radius: 0 !important;}
+    #visitedlinkmenu {border-radius: 0 !important;}
+
 }
-
-
 
 
 
@@ -251,9 +260,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* square toggle buttons */
   .toggle-button, .toggle-button::before {border-radius: 0 !important;}
 
-
-  /* square radio buttons - WIP */
-  /* input[type="radio"], input[type="radio"]:checked {border-radius: 0 !important;} */
 }
 
 
