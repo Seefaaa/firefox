@@ -14,7 +14,6 @@
 **Tab Design**
   - Square corners
   - Connect with toolbar (no floating tabs)
-  - No spacer on left tab bar when windowed
   - Colored tab context line above selected tab
   - Divide Line between tabs
 
