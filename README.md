@@ -60,6 +60,8 @@ To update, repeat steps 2-4. `userVariables.css` does not need to be replaced.
   - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
   - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
   - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
+  - Restore the purple-yellow separator in the app menu by creating the pref `browser.appmenugradient.default` = `true`
+  - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
 
 
 
