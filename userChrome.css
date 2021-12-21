@@ -50,9 +50,11 @@
   --panel-banner-item-update-supported-bgcolor: var(--custom-accent-color) !important;
 }
 
-/* replace the mozilla purple to yellow gradients */
-:root{
-  --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
+/* replace the mozilla purple to yellow gradient in appmenu */
+@supports not (-moz-bool-pref("browser.appmenugradient.default")) {
+  :root{
+    --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
+  }
 }
 
 
@@ -69,7 +71,7 @@
   .titlebar-button:-moz-lwtheme:hover, .titlebar-button:-moz-lwtheme:hover:active {
   background-color: unset !important;
   color: unset !important;
-}
+  }
 }
 
 
