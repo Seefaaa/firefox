@@ -149,7 +149,13 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* enterprise policies infobox */
   #policies-container{border-radius: 0 !important;}
   
-
+  /* match toggle buttons to normal button look */
+  input[type="checkbox"].toggle-button::before{
+    height: 10px !important;
+    width: 10px !important;
+    margin-top: 4px !important;
+    margin-left: 2px !important;
+  }
 }
 
 
