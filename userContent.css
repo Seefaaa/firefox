@@ -65,7 +65,6 @@
     /* square the search box  corners */
     body .search-handoff-button {border-radius: 0 !important;}
 
-
     /* square the settings button and checkboxes / buttons / selectors inside its menu */
     .personalize-button {border-radius: 0 !important;}
     .close-button {border-radius: 0 !important;}
@@ -74,27 +73,25 @@
 
     /* square the toggle button for above */
     .slider {border-radius: 0 !important;}
-    .slider::before {border-radius: 0 !important;}
-
-
+    .slider::before {
+      border-radius: 0 !important;
+      background: #fff !important;
+    }
 
     /* square all the 3 dot menus */
     .context-menu-button {border-radius: 0 !important;}
     .context-menu {border-radius: 0 !important;}
     
-
     /* square the shortcuts: icons, background, and selection box */
     .tile {border-radius: 0 !important;}
     .top-site-icon {border-radius: 0 !important;}
     .icon-wrapper {border-radius: 0 !important;}
     .top-site-outer {border-radius: 0 !important;}
 
-
     /* square the "suggested by pocket" cards and images */
     .ds-card {border-radius: 0 !important;}
     img {border-radius: 0px !important;}
     
-
     /* square all the recent activity cards and images */
     .card {border-radius: 0 !important;}
     .card-outer {border-radius: 0 !important;}
@@ -103,13 +100,10 @@
     .sections-list, .section-empty-state {border-radius: 0 !important;}
     .modal {border-radius: 0 !important;}
     
-    
     /* square the VPN button/infobox in private browsing */
     #private-browsing-vpn-link {border-radius: 0 !important;}
     .info {border-radius: 0 !important;}
 }
-
-
 
 
 
@@ -122,48 +116,40 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .checkbox-check {border-radius: 0 !important;}
   #automaticallySubmitCrashesBox {border-radius: 0 !important;}
 
-
   /* square selection buttons */
   button {border-radius: 0 !important;}
   richlistitem {border-radius: 0 !important;}
   .sidebar-footer-link {border-radius: 0 !important;}
 
-
   /* square toggle buttons */
   .toggle-button {border-radius: 0 !important;}
   .toggle-button::before {border-radius: 0 !important;}
 
-
   /* square search engines table on about:preferences#search page */
   #engineList {border-radius: 0 !important;}
-
 
   /* Tracking Protection options on about:preferences#privacy page */
   .content-blocking-category {border-radius: 0 !important;}
   .content-blocking-warning {border-radius: 0 !important;}
-
 
   /* infoboxes (e.g. settings required by addon) */
   #browserContainersExtensionContent {border-radius: 0 !important;}
   #firefoxSuggestInfoBox {border-radius: 0 !important;}
   #updateSettingsContainer {border-radius: 0 !important;}
 
-
   /* folder selection and table for Files and Applications */
   #downloadFolder {border-radius: 0 !important;}
   #handlersView {border-radius: 0 !important;}
-
 
   /* input, info boxes, and profile on sync page */
   #fxaSyncComputerName {border-radius: 0 !important;}
   .sync-configured {border-radius: 0 !important;}
   .fxaProfileImage {border-radius: 0 !important;}
   
-  
   /* enterprise policies infobox */
   #policies-container{border-radius: 0 !important;}
   
-  
+
 }
 
 
