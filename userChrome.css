@@ -51,7 +51,8 @@
 }
 
 /* replace the mozilla purple to yellow gradient in appmenu */
-@supports not (-moz-bool-pref("browser.appmenugradient.default")) {
+/* (disabled by default) */
+@supports -moz-bool-pref("browser.appmenugradient.overwrite") {
   :root{
     --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
   }
