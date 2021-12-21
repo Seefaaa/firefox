@@ -228,6 +228,9 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
     #unvisitedlinkmenu {border-radius: 0 !important;}
     #visitedlinkmenu {border-radius: 0 !important;}
 
+    /* clear history warning popup */
+    #sanitizeEverythingWarningBox {border-radius: 0 !important;}
+
 }
 
 
