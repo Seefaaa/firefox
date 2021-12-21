@@ -44,11 +44,15 @@
   }
 }
 
-
 /* color the update/info dot in app menu */
 :root{
   --panel-banner-item-info-icon-bgcolor: var(--custom-accent-color) !important;
   --panel-banner-item-update-supported-bgcolor: var(--custom-accent-color) !important;
+}
+
+/* replace the mozilla purple to yellow gradients */
+:root{
+  --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
 }
 
 
