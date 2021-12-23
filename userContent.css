@@ -147,9 +147,14 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .fxaProfileImage {border-radius: 0 !important;}
   
   /* enterprise policies infobox */
-  #policies-container{border-radius: 0 !important;}
+  #policies-container {border-radius: 0 !important;}
+}
+
+
+@-moz-document url(about:preferences), url(about:preferences#general), url(about:preferences#home),
+url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync){
   
-  /* match toggle buttons to normal button look */
+  /* match toggle buttons to normal button look (only about:preferences) */
   input[type="checkbox"].toggle-button::before{
     height: 10px !important;
     width: 10px !important;
@@ -237,16 +242,13 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* square the context menus (3 dots and settings gear) */
   panel-list {border-radius: 0 !important;}
 
-
   /* square the info boxes / banners */
   .discopane-notice {border-radius: 0 !important;}
   .container {border-radius: 0 !important;}
 
-
   /* square the addons and theme cards */
   .card-heading-image {border-radius: 0 !important;}
   .card {border-radius: 0 !important;}
-
 
   /* square selection buttons */
   button {border-radius: 0 !important;}
@@ -254,9 +256,11 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   menulist {border-radius: 0 !important;}
   .sidebar-footer-link {border-radius: 0 !important;}
 
-
   /* square toggle buttons */
   .toggle-button, .toggle-button::before {border-radius: 0 !important;}
+  
+  /* available addons update badge */
+  .category[badge-count]::after {border-radius: 0 !important;}
 
 }
 
