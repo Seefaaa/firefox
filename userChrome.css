@@ -339,6 +339,10 @@ notification-message {border-radius: 0 !important;}
 #statuspanel-label {border-radius: 0 !important;}
 
 
+/* autofill pop up box */
+slot {border-radius: 0 !important;}
+
+
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
 /* export buttons in about:certificates */
