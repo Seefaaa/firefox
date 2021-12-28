@@ -334,6 +334,11 @@ notification-message {border-radius: 0 !important;}
 #sanitizeDurationChoice {border-radius: 0 !important;}
 #sanitizeEverythingWarningBox {border-radius: 0 !important;}
 
+
+/* url preview on hover */
+#statuspanel-label {border-radius: 0 !important;}
+
+
 /* TODO --------------------------------------------------------------------------------------------- */
 /* +/- buttons for zoom in appmenu */
 /* export buttons in about:certificates */
