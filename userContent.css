@@ -58,7 +58,6 @@
 ::-moz-progress-bar{background-color: var(--custom-accent-color) !important;}
 
 
-
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
@@ -104,8 +103,6 @@
     #private-browsing-vpn-link {border-radius: 0 !important;}
     .info {border-radius: 0 !important;}
 }
-
-
 
 
 /* SETTINGS PAGE ------------------------------------------------------------------------------------------- */
@@ -162,7 +159,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
     margin-left: 2px !important;
   }
 }
-
 
 
 /* square popup windows and buttons */
@@ -231,8 +227,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 }
 
 
-
-
 /* ADDONS PAGE --------------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:addons) {
@@ -265,8 +259,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 }
 
 
-
-
 /* ABOUT CONFIG PAGE ---------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:config) {
@@ -285,8 +277,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .button-box {border-radius: 0 !important;}
   richlistbox {border-radius: 0 !important;}
 }
-
-
 
 
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
