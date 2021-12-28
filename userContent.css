@@ -337,3 +337,15 @@ url(about:webrtc), url(about:welcome) {
   /* pip button */
   .pip-small.clickable {border-radius: 0 !important;}
 }
+
+
+/* READER MODE ----------------------------------------------------------------------------------------------- */
+
+@supports (-moz-appearance:none) {
+  .reader-toolbar {border-radius: 0 !important;}
+  .dropdown-popup {border-radius: 0 !important;}
+  .radiorow > label {border-radius: 0 !important;}
+  .font-size-value {border-radius: 0 !important;}
+  .content-width-value {border-radius: 0 !important;}
+  .line-height-value {border-radius: 0 !important;}
+}
