@@ -301,30 +301,6 @@ url(about:webrtc), url(about:welcome) {
 }
 
 
-
-
-/* SCREENSHOT PAGE ------------------------------------------------------------------------------------------ */
-
-@supports (-moz-appearance:none) {
-  .cancel-shot {border-radius: 0 !important;}
-  .all-buttons-container {border-radius: 0 !important;}
-  .visible {border-radius: 0 !important;}
-  .full-page {border-radius: 0 !important;}
-  .highlight-button-cancel {border-radius: 0 !important;}
-  .highlight-button-copy {border-radius: 0 !important;}
-  .highlight-button-download {border-radius: 0 !important;}
-  .preview-buttons {border-radius: 0 !important;}
-  .preview-image-wrapper {border-radius: 0 !important;}
-}
-
-
-/* picture in picture button */
-
-@supports (-moz-appearance:none) {
-  .pip-small.clickable {border-radius: 0 !important;}
-}
-
-
 /* SERVER NOT FOUND PAGE ------------------------------------------------------------------------------------- */
 
 @supports (-moz-appearance:none) {
@@ -347,4 +323,27 @@ url(about:webrtc), url(about:welcome) {
 
 @supports (-moz-appearance:none) {
   #restart {border-radius: 0 !important;}
+}
+
+
+/* SCREENSHOT PAGE ------------------------------------------------------------------------------------------ */
+
+@supports (-moz-appearance:none) {
+  .cancel-shot {border-radius: 0 !important;}
+  .all-buttons-container {border-radius: 0 !important;}
+  .visible {border-radius: 0 !important;}
+  .full-page {border-radius: 0 !important;}
+  .highlight-button-cancel {border-radius: 0 !important;}
+  .highlight-button-copy {border-radius: 0 !important;}
+  .highlight-button-download {border-radius: 0 !important;}
+  .preview-buttons {border-radius: 0 !important;}
+  .preview-image-wrapper {border-radius: 0 !important;}
+}
+
+
+/* PICTURE IN PICTURE PAGE ----------------------------------------------------------------------------------- */
+
+@supports (-moz-appearance:none) {
+  /* pip button */
+  .pip-small.clickable {border-radius: 0 !important;}
 }
