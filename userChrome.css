@@ -13,6 +13,7 @@
     /* --button-primary-color: var(--custom-button-text-color) !important; */
 }
 
+
 .urlbarView-url { color: var(--custom-accent-color) !important; }
 :root {
   --buttons-primary-button-bgcolor: var(--custom-accent-color) !important;
@@ -30,6 +31,7 @@
   --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color) !important; 
 }
 
+
 /* colors various popup windows (e.g. edit bookmarks, close window menus) */
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
   html:not([role="dialog"]),
@@ -44,14 +46,17 @@
   }
 }
 
+
 /* color the update/info dot in app menu */
 :root{
   --panel-banner-item-info-icon-bgcolor: var(--custom-accent-color) !important;
   --panel-banner-item-update-supported-bgcolor: var(--custom-accent-color) !important;
 }
 
+
 /* color the left strip in notification banners (purple-yellow gradient -> accent color) */
 .infobar::before {background-image: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;}
+
 
 /* replace the mozilla purple to yellow gradient in appmenu */
 /* (enabled by default for default, light, and dark themes) */
@@ -103,7 +108,6 @@ otherwise will change height when tabs overflow */
 .titlebar-spacer[type="pre-tabs"] {
   display: none !important;
 }
-
 
 
 /* Tab - Connect to window */
@@ -197,6 +201,7 @@ otherwise will change height when tabs overflow */
   #fxa-avatar-image {border-radius: 0 !important;}
 }
 
+
 /* scales the profile picture, since it is quite small */
 #fxa-avatar-image {transform: scale(var(--sync-avatar-scale)) !important;}
 
@@ -253,6 +258,7 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 /* square the permissions popup (e.g. autoplay blocked) */
 #permission-popup-menulist {border-radius: 0 !important;}
 
+
 /* square permission popups for webRTC (screen sharing and voice) */
 #webRTC-selectMicrophone-menulist {border-radius: 0 !important;}
 #webRTC-selectWindow-menulist {border-radius: 0 !important;}
@@ -264,8 +270,6 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 #appMenu-fullscreen-button2 > .toolbarbutton-icon {
   border-radius: 0 !important;
 }
-
-
 
 
 /* MISC ITEMS ------------------------------------------------------------------------------------------- */
@@ -319,7 +323,6 @@ tooltip {
 /* searchbox and buttons in find bar (ctrl+F) */
 .findbar-textbox {border-radius: 0 !important;}
 toolbarbutton {border-radius: 0 !important;}
-
 
 
 /* certain new folder and login field popup dialogs */
