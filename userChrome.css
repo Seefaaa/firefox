@@ -73,16 +73,18 @@
 /* TITLE BAR ----------------------------------------------------------------------------------------------- */
 
 /* override mozilla min/max/close buttons with default ones (only relevant on linux) */
-@supports -moz-bool-pref("browser.windowcontrolbuttons.overwrite") {
-  .titlebar-button {
-    appearance: auto !important;
-  }
-  .titlebar-min:-moz-lwtheme, .titlebar-max:-moz-lwtheme, .titlebar-restore:-moz-lwtheme, .titlebar-close:-moz-lwtheme {
-    list-style-image: none !important;
-  }
-  .titlebar-button:-moz-lwtheme:hover, .titlebar-button:-moz-lwtheme:hover:active {
-  background-color: unset !important;
-  color: unset !important;
+@media (-moz-gtk-csd-available) {
+  @supports -moz-bool-pref("browser.windowcontrolbuttons.overwrite") {
+    .titlebar-button:-moz-lwtheme {
+      appearance: auto !important;
+    }
+    .titlebar-min:-moz-lwtheme, .titlebar-max:-moz-lwtheme, .titlebar-restore:-moz-lwtheme, .titlebar-close:-moz-lwtheme {
+      list-style-image: none !important;
+    }
+    .titlebar-button:-moz-lwtheme:hover, .titlebar-button:-moz-lwtheme:hover:active {
+    background-color: unset !important;
+    color: unset !important;
+    }
   }
 }
 
