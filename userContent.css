@@ -306,6 +306,7 @@ url(about:webrtc), url(about:welcome) {
   #advancedButton {border-radius: 0 !important;}
   #exceptionDialogButton {border-radius: 0 !important;}
   #advancedPanelReturnButton {border-radius: 0 !important;}
+  #automaticallyReportBlockingInFuture {border-radius: 0 !important;}
 }
 
 
