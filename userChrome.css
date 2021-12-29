@@ -51,7 +51,15 @@
 }
 
 /* replace the mozilla purple to yellow gradient in appmenu */
-/* (disabled by default) */
+/* (enabled by default for default, light, and dark themes) */
+:root:not(:-moz-lwtheme),
+:root[lwt-default-theme-in-dark-mode],
+/* based on https://github.com/black7375/Firefox-UI-Fix/issues/288 */
+:root[style*="--lwt-accent-color: rgb(240, 240, 244); --lwt-text-color: rgba(21, 20, 26);"], /* Light Theme */
+:root[style*="--lwt-accent-color: rgb(28, 27, 34); --lwt-text-color: rgba(251, 251, 254);"] /* Dark Theme */ {
+  --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
+}
+/* can be manually overridden by pref */
 @supports -moz-bool-pref("browser.appmenugradient.overwrite") {
   :root{
     --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;
@@ -347,3 +355,4 @@ slot {border-radius: 0 !important;}
 /* +/- buttons for zoom in appmenu */
 /* export buttons in about:certificates */
 /* media (-moz-gtk-csd-available) {} for linux specific code */
+/* https://www.reddit.com/r/FirefoxCSS/comments/o6q5i4/detect_each_os_lightdark_theme/ */
