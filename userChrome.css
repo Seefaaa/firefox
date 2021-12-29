@@ -50,6 +50,9 @@
   --panel-banner-item-update-supported-bgcolor: var(--custom-accent-color) !important;
 }
 
+/* color the left strip in notification banners (purple-yellow gradient -> accent color) */
+.infobar::before {background-image: linear-gradient(var(--custom-accent-color), var(--custom-accent-color)) !important;}
+
 /* replace the mozilla purple to yellow gradient in appmenu */
 /* (enabled by default for default, light, and dark themes) */
 :root:not(:-moz-lwtheme),
@@ -336,6 +339,10 @@ toolbarbutton {border-radius: 0 !important;}
 notification-message {border-radius: 0 !important;}
 .animated {border-radius: 0 !important;}
 .infobar {border-radius: 0 !important;}
+.infobar::before {
+  border-start-start-radius: 0 !important;
+  border-end-start-radius: 0 !important;
+}
 
 
 /* clear history popup and warnings */
