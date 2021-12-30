@@ -94,6 +94,14 @@
 }
 
 
+/* remove window corner rounding in gtk */
+:root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]) #navigator-toolbox:-moz-lwtheme,
+:root[tabsintitlebar][sizemode="normal"]:not([gtktiledwindow="true"]) ::backdrop {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+
 /* TAB BAR ------------------------------------------------------------------------------------------------- */
 
 /* sets the height of the tab toolbar
