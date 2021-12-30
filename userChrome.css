@@ -294,6 +294,7 @@ select {border-radius: 0 !important;}
 #headers-footers-enabled {border-radius: 0 !important;}
 #backgrounds-enabled {border-radius: 0 !important;}
 .toolbarButton:not(:hover) {background-color: #2b2a33 !important;}
+#custom-range {border-radius: 0 !important;}
 
 
 /* tooltips */
