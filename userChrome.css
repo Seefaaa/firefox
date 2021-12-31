@@ -180,9 +180,14 @@ otherwise will change height when tabs overflow */
 .tabbrowser-tab[style*=transform]:not([visuallyselected]) .tab-content::before,
 .tabbrowser-tab[style*=transform] + .tabbrowser-tab:not([visuallyselected]) .tab-content::before,
 .tabbrowser-tab:not([visuallyselected]):not(:hover):not([multiselected]) + .tabbrowser-tab:not([visuallyselected]):not(:hover):not([multiselected]) .tab-content::before,
-#tabbrowser-tabs[hasadjacentnewtabbutton]:not([overflow]) .tabbrowser-tab[last-visible-tab]:not([visuallyselected]):not(:hover):not([multiselected]) .tab-content::after
-{
+#tabbrowser-tabs[hasadjacentnewtabbutton]:not([overflow]) .tabbrowser-tab[last-visible-tab]:not([visuallyselected]):not(:hover):not([multiselected]) .tab-content::after {
   opacity: var(--tab-separator-opacity) !important;
+}
+
+
+/* squares the mute button on hover */
+.tab-icon-overlay:not([pinned], [sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
+  border-radius: 0 !important;
 }
 
 
