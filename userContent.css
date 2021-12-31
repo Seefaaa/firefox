@@ -335,8 +335,11 @@ url(about:webrtc), url(about:welcome) {
 /* PICTURE IN PICTURE PAGE ----------------------------------------------------------------------------------- */
 
 @supports (-moz-appearance:none) {
-  /* pip button */
   .pip-small.clickable {border-radius: 0 !important;}
+  .pip-expanded {border-radius: 0 !important;}
+  .pip-explainer {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;}
 }
 
 
