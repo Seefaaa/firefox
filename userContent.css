@@ -12,22 +12,22 @@
   window:not([chromehidden]),
   window:not([chromehidden]) > dialog
   {
-    --in-content-primary-button-background: var(--custom-accent-color) !important;
-    --in-content-primary-button-background-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
-    --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+    --in-content-primary-button-background: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-primary-button-background-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+    --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
 
-    --in-content-item-selected: var(--custom-accent-color) !important;
-    --in-content-border-highlight: var(--custom-accent-color) !important;
-    --in-content-border-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
-    /* --in-content-border-focus: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important; */
-    --in-content-border-focus: var(--custom-accent-color) !important;
-    --in-content-border-active: var(--custom-accent-color) !important;
-    --in-content-border-active-shadow: var(--custom-accent-color) !important;
+    --in-content-item-selected: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-border-highlight: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-border-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+    /* --in-content-border-focus: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important; */
+    --in-content-border-focus: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-border-active: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-border-active-shadow: var(--custom-accent-color, #0a84ff) !important;
     --in-content-category-outline-focus: 1px solid transparent !important;
-    --in-content-accent-color: var(--custom-accent-color) !important;
-    --in-content-table-header-background: var(--custom-accent-color) !important;
-    --in-content-link-color: var(--custom-accent-color) !important;
-    --in-content-link-color-hover: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
+    --in-content-accent-color: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-table-header-background: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-link-color: var(--custom-accent-color, #0a84ff) !important;
+    --in-content-link-color-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
     --newtab-focus-outline: var(--in-content-border-active-shadow) !important;
     --newtab-focus-border: var(--in-content-border-focus) !important;
     --newtab-focus-border-selected: var(--custom-accent-color) !important;
@@ -38,9 +38,9 @@
 
 @-moz-document url("chrome://global/content/commonDialog.xhtml"){
   #commonDialog[subdialog] checkbox {
-    --checkbox-checked-bgcolor: var(--custom-accent-color) !important;
-    --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color)) !important;
-    --checkbox-checked-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color)) !important;
+    --checkbox-checked-bgcolor: var(--custom-accent-color, #0a84ff) !important;
+    --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+    --checkbox-checked-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
   }
 }
 
@@ -55,7 +55,7 @@
   box-shadow: 0 0 0 2px var(--newtab-focus-outline) !important;
 }
   
-::-moz-progress-bar{background-color: var(--custom-accent-color) !important;}
+::-moz-progress-bar{background-color: var(--custom-accent-color, #0a84ff) !important;}
 
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
