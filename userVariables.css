@@ -11,6 +11,11 @@
   --custom-accent-color: #0a84ff;
 
 
+/* color of the tab dividers / separators */
+/* set variable = none, to disable dividers */
+  --custom-tab-divider-color: #535354;
+
+
 /* sets the height of the tabs toolbar */
   --tab-bar-height: 33px;
 
