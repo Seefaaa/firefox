@@ -105,10 +105,14 @@
 /* TAB BAR ------------------------------------------------------------------------------------------------- */
 
 /* sets the height of the tab toolbar
-otherwise will change height when tabs overflow */
-#TabsToolbar {height: var(--tab-bar-height, 33px) !important;}
+otherwise will change height when tabs overflow [FIXED] */
+/* tab height when playing audio issue fixed in FF 96.0.2+ */
+/* https://bugzilla.mozilla.org/show_bug.cgi?id=1714276 */
+/* height change when tab overflow fixed in FF 97 beta+ */
+#TabsToolbar {height: var(--tab-bar-height, 35px) !important;}
 :root{
-  --tab-min-height: var(--tab-bar-height, 33px) !important;
+  /* default value for tab-min-height = 36px */
+  --tab-min-height: var(--tab-bar-height, 35px) !important;
 }
 
 
