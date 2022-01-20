@@ -51,8 +51,12 @@ To update, repeat steps 2-4. `userVariables.css` does not need to be replaced.
  
 ## Custom Preferences
 **`userVariables.css`**
+> Restart Firefox to apply changes
+
   - Custom color controlled by `--custom-accent-color: <insert color here>;`
   - Use hex color code (default: dark blue #0a84ff) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
+  - Tab divider color controlled by '--custom-tab-divider-color', see above
+  - set divider color = none, to disable dividers
   - Set height of the tabs
   - Scale the size of sync avatar
 
