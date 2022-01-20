@@ -40,7 +40,7 @@
   window:not([chromehidden]),
   window:not([chromehidden]) > dialog
   {
-    --in-content-primary-button-background: var(--custom-accent-color) !important;
+    --in-content-primary-button-background: var(--custom-accent-color, #0a84ff) !important;
     --in-content-primary-button-background-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
     --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
   }
