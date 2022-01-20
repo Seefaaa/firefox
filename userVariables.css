@@ -17,7 +17,8 @@
 
 
 /* sets the height of the tabs toolbar */
-  --tab-bar-height: 33px;
+/* legacy height (<= v1.6.2) = 33px */
+  --tab-bar-height: 35px;
 
 
 /* set the size of sync profile pic */
