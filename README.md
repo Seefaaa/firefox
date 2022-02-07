@@ -7,19 +7,14 @@
 
   If you hate rounded corners like me, this is for you. Only square corners.
   
-  These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI. As of FF91, the `about:config` option to disable proton (`browser.proton.enabled` = `false`) has been deprecated, leaving CSS as the main way to revert the UI.
+  These tweaks attempt to recreate the feel of Quantum with its squared tabs and menus, but in the Proton UI. As of FF91, the `about:config` option to disable proton has been deprecated, leaving CSS as the main way to revert the UI.
 
 ## Features
 
-**Tab Design**
+**Tab & Menu Design**
   - Square corners
-  - Connect with toolbar (no floating tabs)
-  - Colored tab context line above selected tab
+  - Colored context line above selected tab
   - Divide Line between tabs
-
-**Menu Design**
-  - Square corners on most popup menus
-  - Square toggle buttons
 
 **Custom Accent Color**
   - Consistent, customizable accent color across Firefox
@@ -34,7 +29,6 @@
   1. Enable `userChrome.css` Support.
      - Go to `about:config`
      - `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
-     - `svg.context-properties.content.enabled` to `true`
   2. Find Profile Directory.
      - Go to `about:support`
      - Open Profile Directory
@@ -44,7 +38,7 @@
      - copy the files into the `chrome` directory
   4. Restart Firefox
 
-To update, repeat steps 2-4. `userVariables.css` does not need to be replaced.
+To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
 
 [Thunderbird is also supported.](../../wiki/Thunderbird-Install)
  
@@ -54,8 +48,8 @@ To update, repeat steps 2-4. `userVariables.css` does not need to be replaced.
 > Restart Firefox to apply changes
 
   - Custom color controlled by `--custom-accent-color: <insert color here>;`
-  - Use hex color code (default: dark blue #0a84ff) or [color name](https://www.w3schools.com/cssref/css_colors.asp)
-  - Tab divider color controlled by '--custom-tab-divider-color', see above
+  - Tab divider color controlled by `--custom-tab-divider-color: <insert color here>;`
+  - Use hex color code or [color name](https://www.w3schools.com/cssref/css_colors.asp)
   - set divider color = none, to disable dividers
   - Set height of the tabs
   - Scale the size of sync avatar
