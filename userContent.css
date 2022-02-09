@@ -106,8 +106,8 @@
     /* add hover/click colors on new tab page [workaround] */
     .slider:hover {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4) !important;}
     .slider:active {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.6) !important;}
-    .sponsored-checkbox:checked:hover {background-color: var(--in-content-primary-button-background-hover) !important;}
-    .sponsored-checkbox:checked:active {background-color:var(--in-content-primary-button-background-active) !important;}
+    .sponsored-checkbox:checked:hover {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4) !important;}
+    .sponsored-checkbox:checked:active {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.6) !important;}
     .sponsored-checkbox:hover {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.4) !important;}
     .sponsored-checkbox:active {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.6) !important;}
     .selector:hover {box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.3) !important;}
