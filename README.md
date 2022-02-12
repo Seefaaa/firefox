@@ -76,6 +76,14 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - create custom rules to apply `*{border-radius: 0 !important}` to square *most* elements on webpages
   - *may result in webpage breakages, apply at own risk*
 
+**Operating System**
+  - Linux/all: add [this](https://github.com/leadweedy/Firefox-Proton-Square/issues/7) to `~/.config/gtk-3.0/gtk.css`, squares popups in Firefox (and GTK apps):
+  ```
+decoration, window, window.background, window.titlebar, * {
+border-radius: 0px;
+}
+  ```
+  - Linux/KDE: [ClassiK](https://github.com/paulmcauley/classik) with 0 titlebar radius
 
 
 ## Appendix
