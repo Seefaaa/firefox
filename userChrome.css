@@ -117,8 +117,10 @@ otherwise will change height when tabs overflow [FIXED] */
 
 
 /* Reduce left spacer on tab bar */
-.titlebar-spacer[type="pre-tabs"] {
-  display: none !important;
+@supports (-moz-osx-font-smoothing: auto) {
+  .titlebar-spacer[type="pre-tabs"] {
+    display: none !important;
+  }
 }
 
 
