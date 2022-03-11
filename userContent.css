@@ -118,7 +118,8 @@
 /* SETTINGS PAGE ------------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:preferences), url(about:preferences#general), url(about:preferences#home),
-url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), url(about:addons){
+url(about:preferences#search), url(about:preferences#privacy), url(about:preferences#sync), 
+url(about:preferences#moreFromMozilla), url(about:addons){
   /* square checkboxes */
   .checkbox-check {border-radius: 0 !important;}
   #automaticallySubmitCrashesBox {border-radius: 0 !important;}
@@ -152,6 +153,11 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   #fxaSyncComputerName {border-radius: 0 !important;}
   .sync-configured {border-radius: 0 !important;}
   .fxaProfileImage {border-radius: 0 !important;}
+
+  /* more from mozilla page */
+  .qr-code-box {border-radius: 0 !important;}
+  .qr-code-box-image {border-radius: 0 !important;}
+
   
   /* enterprise policies infobox */
   #policies-container {border-radius: 0 !important;}
