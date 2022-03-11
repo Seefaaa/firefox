@@ -60,6 +60,7 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
   - Color the separator in the app menu by creating the pref `browser.appmenugradient.overwrite` = `true`
   - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
+  - Add more padding on left side of tab bar by creating the pref `browser.lefttabspacer.enable` = `true` 
 
 
 
