@@ -379,14 +379,8 @@ notification-message {border-radius: 0 !important;}
 #statuspanel-label {border-radius: 0 !important;}
 
 
-/* autofill pop up box */
-/* slot {border-radius: 0 !important;} */
-/* unfortunately affects the autoscroller element */
-/* https://www.reddit.com/r/FirefoxCSS/comments/rd3yat/how_can_i_remove_the_shadow_around_the_searchbox/ */
-
 
 /* TODO --------------------------------------------------------------------------------------------- */
-/* +/- buttons for zoom in appmenu */
 /* export buttons in about:certificates */
 /* media (-moz-gtk-csd-available) {} for linux specific code */
 /* https://www.reddit.com/r/FirefoxCSS/comments/o6q5i4/detect_each_os_lightdark_theme/ */
