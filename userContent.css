@@ -161,6 +161,9 @@ url(about:preferences#moreFromMozilla), url(about:addons){
   
   /* enterprise policies infobox */
   #policies-container {border-radius: 0 !important;}
+  
+  /* website appearance selections */
+  .web-appearance-choice {border-radius: 0 !important;}
 }
 
 
