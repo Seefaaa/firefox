@@ -44,8 +44,9 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
  
  
 ## Custom Preferences
-**`userVariables.css`**
 > Restart Firefox to apply changes
+
+**`userVariables.css`**
 
   - Custom color controlled by `--custom-accent-color: <insert color here>;`
   - Tab divider color controlled by `--custom-tab-divider-color: <insert color here>;`
