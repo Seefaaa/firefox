@@ -164,6 +164,9 @@ url(about:preferences#moreFromMozilla), url(about:addons){
   
   /* website appearance selections */
   .web-appearance-choice {border-radius: 0 !important;}
+
+  /* dropdown selectors in tables */
+  menupopup {--panel-border-radius: 0 !important;}
 }
 
 
