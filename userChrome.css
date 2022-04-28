@@ -292,7 +292,10 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 }
 
 /* square the selection in the "List All Tabs" menu */
-.all-tabs-item {border-radius: 0 !important;}
+.all-tabs-item {
+  border-radius: 0 !important;
+  margin-inline: 4px !important;
+}
 
 
 /* MISC ITEMS ------------------------------------------------------------------------------------------- */
