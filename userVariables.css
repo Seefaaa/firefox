@@ -25,5 +25,10 @@
 /* 1.0 = 100% scale */
   --sync-avatar-scale: 1.0;
   
+/* custom paddings/margins for the menu itmes */
+/* for reference: */
+  --custom-menuitem-padding-vertical: 6px;
+  --custom-menuitem-padding-horizontal: 8px;
+  --custom-menuitem-margin: 4px;
 
 } 

@@ -201,9 +201,9 @@ otherwise will change height when tabs overflow [FIXED] */
 
 :root{
   /* reduce padding between menu items */
-  --arrowpanel-menuitem-padding: 6px 8px !important;
-  --arrowpanel-menuitem-margin: 0 4px !important;
-  --panel-subview-body-padding: 4px 0 !important;
+  --arrowpanel-menuitem-padding: var(--custom-menuitem-padding-vertical, 6px) var(--custom-menuitem-padding-horizontal, 8px) !important;
+  --arrowpanel-menuitem-margin: 0 var(--custom-menuitem-margin, 4px) !important;
+  --panel-subview-body-padding: var(--custom-menuitem-margin, 4px) 0 !important;
 
 
   /* square the off most of the UI (selection buttons on hover, context menus, hamburger menus, etc) */
@@ -294,7 +294,7 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
 /* square the selection in the "List All Tabs" menu */
 .all-tabs-item {
   border-radius: 0 !important;
-  margin-inline: 4px !important;
+  margin-inline: var(--custom-menuitem-margin, 4px) !important;
 }
 
 
