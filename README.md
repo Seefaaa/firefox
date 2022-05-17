@@ -54,7 +54,9 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - set divider color = none, to disable dividers
   - Set height of the tabs
   - Scale the size of sync avatar
-
+  - Custom padding/margin for menu items
+  - <img src="https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/padding%20reference.png" width="425">
+  
 **`about:config`**
   - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
   - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
