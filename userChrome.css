@@ -227,6 +227,14 @@ otherwise will change height when tabs overflow [FIXED] */
 
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
 
+/* more padding code for sub menus */
+.panel-header {
+  padding: var(--custom-menuitem-margin, 4px) !important;
+  padding-top: var(--custom-menuitem-margin, 4px) !important;
+}
+.subviewbutton-back {margin: 0 0 !important;}
+
+
 /* removes the rounded corners from (bookmarks) menu */
 .menupopup-arrowscrollbox, .panel-arrowcontainer, .panel-arrowbox, .panel-arrowscrollbox, menupopup {
   border-radius: 0 !important;
