@@ -230,7 +230,7 @@ otherwise will change height when tabs overflow [FIXED] */
 /* more padding code for sub menus */
 .panel-header {
   padding: var(--custom-menuitem-margin, 4px) !important;
-  padding-top: var(--custom-menuitem-margin, 4px) !important;
+  padding-bottom: 0 !important;
 }
 .subviewbutton-back {margin: 0 0 !important;}
 
