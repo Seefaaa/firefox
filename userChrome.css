@@ -262,21 +262,10 @@ menupopup menuitem, menupopup menu {border-radius: 0 !important;}
   overflow: hidden !important;
 }
 
-.downloadProgress[paused] {
-  border-radius: 0 !important;
-}
-
-.downloadProgress:not([value="0"])::-moz-progress-bar {
-  border-radius: 0 !important;
-}
-
-.downloadProgress::-moz-progress-bar {
-  border-radius: 0 !important;
-}
-
-.downloadProgress[paused]::-moz-progress-bar {
-  border-radius: 0 !important;
-}
+.downloadProgress[paused] {border-radius: 0 !important;}
+.downloadProgress:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
+.downloadProgress::-moz-progress-bar {border-radius: 0 !important;}
+.downloadProgress[paused]::-moz-progress-bar {border-radius: 0 !important;}
 
 
 /* square off the toggle switch for "enhanced tracking protection" */
@@ -331,25 +320,6 @@ select {border-radius: 0 !important;}
 #custom-range {border-radius: 0 !important;}
 
 
-/* tooltips */
-/* disabled for now, not all tooltips can be changed with css */
-/* see https://old.reddit.com/r/FirefoxCSS/comments/dwpykf/problems_with_styling_tooltips/f80dnv8/ */
-/* #tabbrowser-tab-tooltip,
-#btTooltip,
-#un-toolbar-tooltip,
-#tooltip,
-.tooltip,
-#aHTMLTooltip,
-#urlTooltip,
-#bhTooltip,
-.places-tooltip-box,
-.tooltip-label,
-tooltip {
-	-moz-appearance: none !important;
-	border-radius: 0 !important;
-} */
-
-
 /* autosave password notification input fields */
 #password-notification-username {border-radius: 0 !important;}
 #password-notification-password {border-radius: 0 !important;}
@@ -393,6 +363,11 @@ notification-message {border-radius: 0 !important;}
 /* url preview on hover */
 #statuspanel-label {border-radius: 0 !important;}
 
+
+/* THUNDERBIRD SPECIFIC ------------------------------------------------------------------------------ */
+/* the loading/compacting progress bar on bottom right */
+.progressmeter-statusbar {border-radius: 0 !important;}
+.progressmeter-statusbar:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
 
 
 /* TODO --------------------------------------------------------------------------------------------- */
