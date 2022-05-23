@@ -365,6 +365,9 @@ notification-message {border-radius: 0 !important;}
 
 
 /* THUNDERBIRD SPECIFIC ------------------------------------------------------------------------------ */
+/* custom color for tab line */
+:root {--tabline-color: var(--custom-accent-color, #0a84ff) !important;}
+
 /* the loading/compacting progress bar on bottom right */
 .progressmeter-statusbar {border-radius: 0 !important;}
 .progressmeter-statusbar:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
