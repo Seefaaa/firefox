@@ -298,6 +298,11 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* square buttons and boxes*/
   .button-box {border-radius: 0 !important;}
   richlistbox {border-radius: 0 !important;}
+  .downloadProgress {border-radius: 0 !important;}
+  .downloadProgress[paused] {border-radius: 0 !important;}
+  .downloadProgress:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
+  .downloadProgress::-moz-progress-bar {border-radius: 0 !important;}
+  .downloadProgress[paused]::-moz-progress-bar {border-radius: 0 !important;}
 }
 
 
