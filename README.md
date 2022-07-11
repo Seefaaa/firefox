@@ -24,7 +24,7 @@
   - Static file retains saved preferences, does not need to be updated
    
   
-## How to Install?
+## Installation
 
   1. Enable `userChrome.css` Support.
      - Go to `about:config`
@@ -44,7 +44,7 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
  
  
 ## Custom Preferences
-> Restart Firefox to apply changes
+⚠️ Restart Firefox to apply changes ⚠️
 
 **`userVariables.css`**
 
