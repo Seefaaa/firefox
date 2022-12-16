@@ -109,11 +109,13 @@ otherwise will change height when tabs overflow [FIXED] */
 /* tab height when playing audio issue fixed in FF 96.0.2+ */
 /* https://bugzilla.mozilla.org/show_bug.cgi?id=1714276 */
 /* height change when tab overflow fixed in FF 97 beta+ */
-#TabsToolbar {height: var(--tab-bar-height, 35px) !important;}
-:root{
+/* #TabsToolbar {height: var(--tab-bar-height, 35px) !important;} */
+/* :root{ */
   /* default value for tab-min-height = 36px */
-  --tab-min-height: var(--tab-bar-height, 35px) !important;
-}
+  /* --tab-min-height: var(--tab-bar-height, 35px) !important; */
+/* } */
+/* .toolbar-items {height: var(--tab-bar-height, 35px) !important;} */
+/* .tabbrowser-tab {height: var(--tab-bar-height, 35px) !important;} */
 
 
 /* Reduce left spacer on tab bar */
@@ -378,3 +380,8 @@ notification-message {border-radius: 0 !important;}
 /* export buttons in about:certificates */
 /* media (-moz-gtk-csd-available) {} for linux specific code */
 /* https://www.reddit.com/r/FirefoxCSS/comments/o6q5i4/detect_each_os_lightdark_theme/ */
+
+/* .tab-background[selected]:not([multiselected="true"]):-moz-lwtheme {
+  outline: 1px solid var(--custom-accent-color, #0a84ff) !important;
+  outline-offset: -1px !important;
+} */

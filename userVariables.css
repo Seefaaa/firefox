@@ -18,7 +18,8 @@
 
 /* sets the height of the tabs toolbar */
 /* legacy height (<= v1.6.2) = 33px */
-  --tab-bar-height: 35px;
+/* functionality broken as of FF 108 - WIP */
+  /* --tab-bar-height: 35px; */
 
 
 /* set the size of sync profile pic */
