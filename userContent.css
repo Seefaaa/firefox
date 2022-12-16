@@ -318,6 +318,7 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   .step-progress:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
   #colorways-collection-expiry-date {border-radius: 0 !important;}
   #colorways-collection-expiry-date > span {border-radius: 0 !important;}
+  *{border-radius: 0 !important;}
 }
 
 
