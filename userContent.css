@@ -307,6 +307,20 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 }
 
 
+/* FIREFOX VIEW PAGE ----------------------------------------------------------------------------------------- */
+@-moz-document url(about:firefoxview) {
+  .tabpickup-steps {border-radius: 0 !important;}
+  .twisty {border-radius: 0 !important;}
+  .closed-tab-li-main {border-radius: 0 !important;}
+  .card {border-radius: 0 !important;}
+  .zap-card::before {border-radius: 0 !important;}
+  .step-progress {border-radius: 0 !important;}
+  .step-progress:not([value="0"])::-moz-progress-bar {border-radius: 0 !important;}
+  #colorways-collection-expiry-date {border-radius: 0 !important;}
+  #colorways-collection-expiry-date > span {border-radius: 0 !important;}
+}
+
+
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:buildconfig), url(about:compat), url(about:crashes), url(about:debugging), 
@@ -381,3 +395,5 @@ url(about:webrtc), url(about:welcome) {
   .content-width-value {border-radius: 0 !important;}
   .line-height-value {border-radius: 0 !important;}
 }
+
+
