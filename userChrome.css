@@ -118,6 +118,7 @@ otherwise will change height when tabs overflow [FIXED] */
 /* .tabbrowser-tab {height: var(--tab-bar-height, 35px) !important;} */
 
 
+
 /* Reduce left spacer on tab bar */
 @supports (not (-moz-osx-font-smoothing: auto)) and (not (-moz-bool-pref("browser.lefttabspacer.enable"))) {
   .titlebar-spacer[type="pre-tabs"] {
@@ -227,6 +228,11 @@ otherwise will change height when tabs overflow [FIXED] */
 /* scales the profile picture, since it is quite small */
 #fxa-avatar-image {transform: scale(var(--sync-avatar-scale)) !important;}
 
+
+/* option to hide extensions button */
+@supports -moz-bool-pref("browser.unifiedextensions.hide") {
+  #unified-extensions-button {display: none}
+}
 
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
 
