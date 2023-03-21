@@ -64,6 +64,7 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - Color the separator in the app menu by creating the pref `browser.appmenugradient.overwrite` = `true`
   - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
   - Add more padding on left side of tab bar by creating the pref `browser.lefttabspacer.enable` = `true` 
+  - Disable Unified Extensions button (on the nav bar) by created the pref `browser.unifiedextensions.hide` = `true`
 
 
 
