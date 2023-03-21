@@ -279,6 +279,8 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   /* available addons update badge */
   .category[badge-count]::after {border-radius: 0 !important;}
 
+  /* extensions shortcuts */
+  .shortcut-input {border-radius: 0 !important;}
 }
 
 
