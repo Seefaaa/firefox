@@ -57,6 +57,12 @@
   
 ::-moz-progress-bar{background-color: var(--custom-accent-color, #0a84ff) !important;}
 
+login-filter {
+  --in-content-primary-button-background: var(--custom-accent-color, #0a84ff) !important;
+  --in-content-primary-button-background-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+  --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
+}
+
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
 
@@ -323,7 +329,6 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
   *{border-radius: 0 !important;}
 }
 
-
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:buildconfig), url(about:compat), url(about:crashes), url(about:debugging), 
@@ -398,5 +403,3 @@ url(about:webrtc), url(about:welcome) {
   .content-width-value {border-radius: 0 !important;}
   .line-height-value {border-radius: 0 !important;}
 }
-
-
