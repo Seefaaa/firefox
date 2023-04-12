@@ -6,11 +6,10 @@
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
 
 :root {
-    --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
-    --button-primary-bgcolor: var(--custom-accent-color, #0a84ff) !important;
-    --button-primary-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
-    --button-primary-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
-    /* --button-primary-color: var(--custom-button-text-color) !important; */
+  --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
+  --button-primary-bgcolor: var(--custom-accent-color, #0a84ff) !important;
+  --button-primary-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+  --button-primary-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
 }
 
 
@@ -56,6 +55,12 @@
 
 /* color the left strip in notification banners (purple-yellow gradient -> accent color) */
 .infobar::before {background-image: linear-gradient(var(--custom-accent-color, #0a84ff), var(--custom-accent-color, #0a84ff)) !important;}
+
+
+/* color the password autofill highlight color on click */
+.autocomplete-richlistitem[selected] {
+  background-color: (in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+}
 
 
 /* replace the mozilla purple to yellow gradient in appmenu */
