@@ -58,9 +58,9 @@
 
 
 /* color the password autofill highlight color on click */
-.autocomplete-richlistitem[selected] {
+/* .autocomplete-richlistitem[selected] {
   background-color: (in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
-}
+} */
 
 
 /* replace the mozilla purple to yellow gradient in appmenu */
