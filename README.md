@@ -88,7 +88,7 @@ decoration, window, window.background, window.titlebar, * {
 border-radius: 0px;
 }
   ```
-  - Linux/KDE: [ClassiK](https://github.com/paulmcauley/classik) with 0 titlebar radius
+  - Linux/KDE: [Klassy](https://github.com/paulmcauley/klassy) with 0 titlebar radius
 
 
 ## Appendix
