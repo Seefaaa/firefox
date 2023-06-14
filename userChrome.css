@@ -255,8 +255,11 @@ otherwise will change height when tabs overflow [FIXED] */
 }
 
 
-/* removes rounded corner from selection box in side bookmarks menu */
-menupopup menuitem, menupopup menu {border-radius: 0 !important;}
+/* removes rounded corner from selection boxes and autocomplete popups */
+menupopup menuitem, menupopup menu, menupopup, panel {
+  border-radius: 0 !important;
+  --panel-border-radius: 0 !important;
+}
 
 
 /* square input fields in the edit bookmarks menu */
@@ -321,8 +324,9 @@ button {border-radius: 0 !important;}
 #checkbox {border-radius: 0 !important;}
 
 
-/* square dropdown selection boxes */
+/* square dropdown selection and autocompete boxes */
 select {border-radius: 0 !important;}
+:is(panel, menupopup)::part(content) {border-radius: 0 !important;}
 
 
 /* square selections, checkboxes, and nav buttons on the print page */
