@@ -183,8 +183,8 @@ otherwise will change height when tabs overflow [FIXED] */
   position: absolute !important;
   background-color: var(--custom-tab-divider-color, #535354) !important;
   width: 1px !important;
-  height: var(--tab-bar-height, 60px) !important;
-  /* transform: translateY(-20px) !important; */
+  height: calc(var(--tab-bar-height, 60px) + 40px) !important;
+  transform: translateY(-20px) !important;
   opacity: 0 !important;
   transition: opacity 1s var(--ease-basic) !important;
 }
