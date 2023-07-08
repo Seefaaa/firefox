@@ -33,6 +33,9 @@
     --newtab-focus-border-selected: var(--custom-accent-color) !important;
     --newtab-textbox-focus-color: var(--in-content-border-focus) !important;
     --newtab-primary-action-background: var(--custom-accent-color) !important;
+    --color-accent-primary: var(--custom-accent-color) !important;
+    --color-accent-primary-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+    --color-accent-primary-active: var(--custom-accent-color) !important;
   }
 }
 
