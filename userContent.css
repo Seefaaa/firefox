@@ -151,6 +151,7 @@ url(about:preferences#moreFromMozilla), url(about:addons){
   #browserContainersExtensionContent {border-radius: 0 !important;}
   #firefoxSuggestInfoBox {border-radius: 0 !important;}
   #updateSettingsContainer {border-radius: 0 !important;}
+  .info-box-container {border-radius: 0 !important;}
 
   /* folder selection and table for Files and Applications */
   #downloadFolder {border-radius: 0 !important;}
