@@ -339,14 +339,20 @@ url(about:preferences#search), url(about:preferences#privacy), url(about:prefere
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
 
 @-moz-document url(about:buildconfig), url(about:compat), url(about:crashes), url(about:debugging), 
-url(about:debugging#/setup), url(about:debugging#/runtime/this-firefox), url(about:devtools), 
- url(about:logins), url(about:networking), url(about:policies), url(about:profiles),
+url(about:debugging#/setup), url(about:debugging#/runtime/this-firefox), url(about:devtools),
+url(about:networking), url(about:policies), url(about:profiles),
 url(about:profiling), url(about:protections), url(about:serviceworkers), url(about:studies), 
 url(about:support), url(about:telemetry), url(about:unloads), url(about:url-classifier), 
 url(about:webrtc), url(about:welcome) {
   *{border-radius: 0 !important;}
 }
 
+
+/* PASSWORDS AND LOGINS ------------------------------------------------------------------------------------- */
+
+@-moz-document regexp("^(about:logins).*") {
+  *{border-radius: 0 !important;}
+}
 
 /* SERVER NOT FOUND PAGE ------------------------------------------------------------------------------------- */
 
