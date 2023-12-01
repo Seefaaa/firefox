@@ -73,7 +73,7 @@
   --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color, #0a84ff), var(--custom-accent-color, #0a84ff)) !important;
 }
 /* can be manually overridden by pref */
-@supports -moz-bool-pref("browser.appmenugradient.overwrite") {
+@media (-moz-bool-pref: "browser.appmenugradient.overwrite") {
   :root{
     --panel-separator-zap-gradient: linear-gradient(var(--custom-accent-color, #0a84ff), var(--custom-accent-color, #0a84ff)) !important;
   }
@@ -84,7 +84,7 @@
 
 /* override mozilla min/max/close buttons with default ones (only relevant on linux) */
 @media (-moz-gtk-csd-available) {
-  @supports -moz-bool-pref("browser.windowcontrolbuttons.overwrite") {
+  @media (-moz-bool-pref: "browser.windowcontrolbuttons.overwrite") {
     .titlebar-button:-moz-lwtheme {
       appearance: auto !important;
     }
@@ -125,10 +125,12 @@ otherwise will change height when tabs overflow [FIXED] */
 
 
 /* Reduce left spacer on tab bar */
-@supports (not (-moz-osx-font-smoothing: auto)) and (not (-moz-bool-pref("browser.lefttabspacer.enable"))) {
-  .titlebar-spacer[type="pre-tabs"] {
-    display: none !important;
-  }
+@supports (not (-moz-osx-font-smoothing: auto)){
+  @media not (-moz-bool-pref:"browser.lefttabspacer.enable") {
+    .titlebar-spacer[type="pre-tabs"] {
+      display: none !important;
+    }
+  } 
 }
 
 
@@ -225,7 +227,7 @@ otherwise will change height when tabs overflow [FIXED] */
 
 
 /* squares the profile picture on toolbar if logged into sync AND not disabled by pref */
-@supports not -moz-bool-pref("browser.syncavatar.round") {
+@media not (-moz-bool-pref:"browser.syncavatar.round") {
   #fxa-avatar-image {border-radius: 0 !important;}
 }
 
@@ -235,7 +237,7 @@ otherwise will change height when tabs overflow [FIXED] */
 
 
 /* option to hide extensions button */
-@supports -moz-bool-pref("browser.unifiedextensions.hide") {
+@media (-moz-bool-pref:"browser.unifiedextensions.hide") {
   #unified-extensions-button {display: none}
 }
 
