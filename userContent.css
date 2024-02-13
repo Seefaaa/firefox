@@ -88,6 +88,9 @@ login-filter {
       border-radius: 0 !important;
       background: #fff !important;
     }
+    .toggle-button {
+      --toggle-border-radius: 0 !important;
+    }
 
     /* square all the 3 dot menus */
     .context-menu-button {border-radius: 0 !important;}
