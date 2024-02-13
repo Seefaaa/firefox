@@ -258,7 +258,7 @@ otherwise will change height when tabs overflow [FIXED] */
 
 
 /* removes rounded corner from selection boxes and autocomplete popups */
-menupopup menuitem, menupopup menu, menupopup, panel {
+menupopup menuitem, menupopup menu, menupopup, panel, menulist {
   border-radius: 0 !important;
   --panel-border-radius: 0 !important;
 }
