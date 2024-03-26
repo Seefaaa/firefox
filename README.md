@@ -73,7 +73,6 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - set `browser.tabs.tabMinWidth` to `150` px or desired width
   - set `widget.non-native-theme.gtk.scrollbar.round-thumb` to `false` to square the scrollbar (linux only)
   - change `layout.css.devPixelsPerPx` to scale the whole browser (1.0 represents 100% scaling)
-  - re-enable compact density by setting `browser.compactmode.show` to `true`
 
 
 **Addons**
