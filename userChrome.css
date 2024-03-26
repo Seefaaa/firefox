@@ -61,9 +61,11 @@
 
 
 /* color the password autofill highlight color on click */
-/* .autocomplete-richlistitem[selected] {
-  background-color: (in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
-} */
+.autocomplete-richlistitem {
+  &[selected] {
+    background-color: color-mix(in srgb, white 15%, var(--custom-accent-color, #0a84ff)) !important;
+  }
+}
 
 /* color the "manage themes" link on the customize page */
 #customization-lwtheme-link.text-link{color: var(--custom-accent-color, #0a84ff) !important;}
