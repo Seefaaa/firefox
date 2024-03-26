@@ -204,6 +204,12 @@ otherwise will change height when tabs overflow [FIXED] */
   right: 0;
 }
 
+/* removes double tab line next to view button, fixes some padding */
+:root:not([privatebrowsingmode], [firefoxviewhidden]) :is(toolbarbutton, toolbarpaletteitem) + #tabbrowser-tabs{
+  border-inline-start: None !important;
+  padding-inline-start: calc(var(--tab-overflow-pinned-tabs-width) + 0px) !important;
+  margin-inline-start: 0 !important;
+}
 
 /* squares the mute button on hover */
 .tab-icon-overlay:not([pinned], [sharing], [crashed]):is([soundplaying], [muted], [activemedia-blocked]) {
