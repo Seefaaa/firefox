@@ -48,6 +48,10 @@
   }
 }
 
+/* color report broken side link */
+#report-broken-site-popup-send-more-info-link{
+  color: var(--custom-accent-color, #0a84ff) !important;
+}
 
 /* color the update/info dot in app menu */
 :root{
