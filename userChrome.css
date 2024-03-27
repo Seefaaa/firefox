@@ -13,6 +13,7 @@
   --brand-color-accent: var(--custom-accent-color, #0a84ff) !important;
   --brand-color-accent-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --brand-color-accent-active: var(--custom-accent-color, #0a84ff) !important;
+  --tab-attention-icon-color: var(--custom-accent-color, #0a84ff) !important;
 }
 
 
