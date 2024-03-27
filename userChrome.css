@@ -264,11 +264,13 @@ otherwise will change height when tabs overflow [FIXED] */
 .subviewbutton-back {margin: 0 0 !important;}
 
 
-/* removes the rounded corners from (bookmarks) menu */
+/* removes the rounded corners from popup menus (main hamburger menu, bookmarks, etc) */
 .menupopup-arrowscrollbox, .panel-arrowcontainer, .panel-arrowbox, .panel-arrowscrollbox, menupopup {
   border-radius: 0 !important;
 }
-
+#report-broken-site-popup-url, #report-broken-site-popup-description {
+  border-radius: 0 !important;
+}
 
 /* removes rounded corner from selection boxes and autocomplete popups */
 menupopup menuitem, menupopup menu, menupopup, panel, menulist {
