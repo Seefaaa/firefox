@@ -255,6 +255,13 @@ otherwise will change height when tabs overflow [FIXED] */
   #unified-extensions-button {display: none}
 }
 
+/* option to hide the extentions notification dot */
+@media (-moz-bool-pref:"browser.extensionsdot.hide") {
+  #unified-extensions-button[attention] > .toolbarbutton-icon {
+    background-image: None !important;
+  }
+}
+
 /* SUB MENUS --------------------------------------------------------------------------------------------- */
 
 /* more padding code for sub menus */
