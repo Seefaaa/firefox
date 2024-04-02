@@ -65,6 +65,7 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
   - Add more padding on left side of tab bar by creating the pref `browser.lefttabspacer.enable` = `true` 
   - Disable Unified Extensions button (on the nav bar) by created the pref `browser.unifiedextensions.hide` = `true`
+  - Hide Extensions Dot (![example extensions dot](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/extensions_dot.png)) by creating the pref `browser.extensionsdot.hide` = `true`
 
 
 
