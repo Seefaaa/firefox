@@ -13,7 +13,7 @@
 
 /* color of the tab dividers / separators */
 /* set variable = none, to disable dividers */
-  --custom-tab-divider-color: #535354;
+  --custom-tab-divider-color: none;
 
 
 /* sets the height of the tabs toolbar */
@@ -25,11 +25,11 @@
 /* set the size of sync profile pic */
 /* 1.0 = 100% scale */
   --sync-avatar-scale: 1.0;
-  
+
 /* custom paddings/margins for the menu itmes */
 /* for reference: */
-  --custom-menuitem-padding-vertical: 6px;
-  --custom-menuitem-padding-horizontal: 8px;
-  --custom-menuitem-margin: 4px;
+  --custom-menuitem-padding-vertical: 3px;
+  --custom-menuitem-padding-horizontal: 4px;
+  --custom-menuitem-margin: 0px;
 
-} 
+}
