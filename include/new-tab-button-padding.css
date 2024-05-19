@@ -1,0 +1,9 @@
+/* removes space between tabs and new tab button */
+
+#tabs-newtab-button {
+	padding: 0 !important;
+
+	&:hover>image {
+		background-color: color-mix(in srgb, currentColor 11%, transparent) !important;
+	}
+}

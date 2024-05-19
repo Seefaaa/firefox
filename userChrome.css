@@ -1,6 +1,18 @@
 /* imports the user facing variables */
 @import url(userVariables.css);
 
+/* seefaaa */
+@import url(include/alttabs-button.css);
+@import url(include/hide-navigation.css);
+@import url(include/hide-no-title.css);
+@import url(include/hide-open-all-in-tabs.css);
+@import url(include/hide-other-bookmarks.css);
+@import url(include/hide-scroll-buttons.css);
+@import url(include/hide-unused-context.css);
+@import url(include/new-tab-button-padding.css);
+@import url(include/pinned-tab-margin.css);
+@import url(include/square-tooltips.css);
+@import url(include/toolbar-padding.css);
 
 
 /* CUSTOM ACCENT COLORS -------------------------------------------------------------------------------------- */
@@ -31,7 +43,7 @@
   --toolbar-field-focus-border-color: var(--custom-accent-color, #0a84ff) !important;
   /*Star Highlight & Download Finished*/
   --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
-  --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important; 
+  --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
 }
 
 
@@ -142,7 +154,7 @@ otherwise will change height when tabs overflow [FIXED] */
     .titlebar-spacer[type="pre-tabs"] {
       display: none !important;
     }
-  } 
+  }
 }
 
 
@@ -164,7 +176,7 @@ otherwise will change height when tabs overflow [FIXED] */
 
 /* adds the little colored strip on top of the selected tab */
 .tab-background:is([selected],[multiselected]) {
-  box-shadow: inset 0 2px var(--custom-accent-color, #0a84ff) !important;
+  box-shadow: inset 0 2px var(--selected-tab-strip, --custom-accent-color, #0a84ff) !important;
   border: 0 !important;
   outline: none !important;
 }
@@ -355,7 +367,7 @@ select {border-radius: 0 !important;}
 
 
 /* square selections, checkboxes, and nav buttons on the print page */
-.toggle-group-label {border-radius: 0 !important;} 
+.toggle-group-label {border-radius: 0 !important;}
 .photon-number {border-radius: 0 !important;}
 #headers-footers-enabled {border-radius: 0 !important;}
 #backgrounds-enabled {border-radius: 0 !important;}

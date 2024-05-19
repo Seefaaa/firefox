@@ -1,0 +1,3 @@
+:root {
+	--toolbar-start-end-padding: var(--custom-toolbar-start-end-padding, 8px) !important;
+}

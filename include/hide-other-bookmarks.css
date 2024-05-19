@@ -1,0 +1,11 @@
+/* hide "other bookmarks" label */
+
+#PlacesToolbar>toolbarbutton:last-child {
+	&>image {
+		margin: 0 !important;
+	}
+
+	&>label {
+		display: none !important;
+	}
+}

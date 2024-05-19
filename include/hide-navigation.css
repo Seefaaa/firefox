@@ -1,0 +1,9 @@
+/* hide navigation inside the right click context */
+
+#context-navigation {
+	display: none !important;
+}
+
+#context-sep-navigation {
+	display: none !important;
+}

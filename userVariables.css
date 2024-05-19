@@ -32,4 +32,11 @@
   --custom-menuitem-padding-horizontal: 4px;
   --custom-menuitem-margin: 0px;
 
+  /* toolbar start/end padding */
+  --custom-toolbar-start-end-padding: 4px;
+
+  /* adds the little colored strip on top of the selected tab */
+  /* use hexcode or color name or set transparent to hide */
+  --selected-tab-strip: transparent;
+
 }

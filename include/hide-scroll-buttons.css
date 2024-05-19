@@ -1,0 +1,6 @@
+/* hide scroll buttons around tabs */
+
+#scrollbutton-up[tooltiptext],
+#scrollbutton-down[tooltiptext] {
+	display: none;
+}

@@ -1,0 +1,5 @@
+/* hide "(no title)" label */
+
+.bookmark-item[label='(no title)']>label::before {
+	display: none !important;
+}

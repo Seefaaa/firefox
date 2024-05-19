@@ -1,0 +1,9 @@
+/* hide "Open All in Tabs" button */
+
+.openintabs-menuitem {
+	display: none;
+}
+
+.bookmarks-actions-menuseparator {
+	display: none;
+}

@@ -1,0 +1,29 @@
+/* hide unused context items */
+
+#context-bookmarklink {
+	display: none !important;
+}
+
+#context-savelink {
+	display: none !important;
+}
+
+#context-savelinktopocket {
+	display: none !important;
+}
+
+#context-pocket {
+	display: none !important;
+}
+
+#context-sendimage {
+	display: none !important;
+}
+
+#context-setDesktopBackground {
+	display: none !important;
+}
+
+#context-inspect-a11y {
+	display: none !important;
+}

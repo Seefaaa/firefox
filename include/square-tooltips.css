@@ -1,0 +1,6 @@
+/* make tooltips (not all of them) square */
+
+tooltip {
+	border-radius: 0 !important;
+	padding: 2px 4px !important;
+}
