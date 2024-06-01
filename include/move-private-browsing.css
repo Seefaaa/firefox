@@ -1,0 +1,28 @@
+/* moves "private browsing" label to left of the alttabs button */
+
+@media (-moz-platform: windows) {
+	:root[privatebrowsingmode=temporary] {
+		#private-browsing-indicator-with-label {
+			width: 46px;
+			margin: 0 !important;
+			justify-content: center;
+			position: relative;
+			left: -46px;
+
+			/*
+			&:hover {
+				background: light-dark(hsla(0, 0%, 0%, .12), hsla(0, 0%, 100%, .22)) !important;
+			}
+			*/
+
+			& > label {
+				display: none;
+			}
+		}
+
+		#alltabs-button {
+			position: relative;
+			left: 46px;
+		}
+	}
+}

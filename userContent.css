@@ -69,6 +69,11 @@ login-filter {
   --in-content-primary-button-background-active: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
 }
 
+/* THIN SCROLLBAR -------------------------------------------------------------------------------------------- */
+
+* {
+	scrollbar-width: thin;
+}
 
 /* NEW TAB PAGE ---------------------------------------------------------------------------------------------- */
 

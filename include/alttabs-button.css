@@ -1,20 +1,22 @@
 /* docks alttabs button to next to the minimize button for windows like previous versions of chrome */
 
-.titlebar-spacer {
-	display: none !important;
-}
+@media (-moz-platform: windows) {
+	.titlebar-spacer {
+		display: none !important;
+	}
 
-#alltabs-button {
-	width: 0;
-	padding: 0px 23px !important;
-}
+	#alltabs-button {
+		width: 0;
+		padding: 0px 23px !important;
+	}
 
-#alltabs-button:hover {
-	/* same as titlebar button (minimize, close, ...) */
-	background: light-dark(hsla(0, 0%, 0%, .12), hsla(0, 0%, 100%, .22)) !important;
-}
+	#alltabs-button:hover {
+		/* same as titlebar button (minimize, close, ...) */
+		background: light-dark(hsla(0, 0%, 0%, .12), hsla(0, 0%, 100%, .22)) !important;
+	}
 
-#alltabs-button>stack {
-	padding: 0 !important;
-	background: none !important;
+	#alltabs-button>stack {
+		padding: 0 !important;
+		background: none !important;
+	}
 }

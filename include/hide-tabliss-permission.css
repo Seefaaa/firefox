@@ -1,0 +1,17 @@
+/* hide extension page permission thing of tabliss from url bar */
+
+#identity-box:not([pageproxystate='invalid']):has(#identity-icon-box > label[value='Extension (Tabliss)']) {
+	margin-inline-end: var(--identity-box-margin-inline) !important;
+
+	#identity-icon-box {
+		display: none !important;
+	}
+
+	#identity-permission-box {
+		padding-inline: var(--urlbar-icon-padding) !important;
+
+		&:not(:hover) {
+			background: none !important;
+		}
+	}
+}

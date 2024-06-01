@@ -1,0 +1,5 @@
+/* hides * is now full screen warning */
+
+#fullscreen-warning {
+	display: none !important;
+}

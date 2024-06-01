@@ -1,0 +1,5 @@
+/* hide icons of new tabs */
+
+tab[label='New Tab'] .tab-icon-stack {
+	display: none;
+}

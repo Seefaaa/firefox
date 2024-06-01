@@ -3,12 +3,16 @@
 
 /* seefaaa */
 @import url(include/alttabs-button.css);
+@import url(include/hide-fullscreen-warning.css);
 @import url(include/hide-navigation.css);
+@import url(include/hide-new-tab-icon.css);
 @import url(include/hide-no-title.css);
 @import url(include/hide-open-all-in-tabs.css);
 @import url(include/hide-other-bookmarks.css);
 @import url(include/hide-scroll-buttons.css);
+@import url(include/hide-tabliss-permission.css);
 @import url(include/hide-unused-context.css);
+@import url(include/move-private-browsing.css);
 @import url(include/new-tab-button-padding.css);
 @import url(include/pinned-tab-margin.css);
 @import url(include/square-tooltips.css);
