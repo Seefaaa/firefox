@@ -56,6 +56,8 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - Scale the size of sync avatar
   - Custom padding/margin for menu items
   - <img src="https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/padding%20reference.png" width="425">
+  - Set the height of the bottom stripe with `--container-stripe-height` for [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) tabs
+  - <img src="https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/container-support/images/container_tabs.png" width="1000">
   
 **`about:config`**
   - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
