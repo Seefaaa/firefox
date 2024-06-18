@@ -17,7 +17,8 @@
 }
 
 
-.urlbarView-url {
+.urlbarView-url,
+.text-link {
   color: var(--custom-accent-color, #0a84ff) !important;
 }
 
