@@ -32,7 +32,8 @@
   --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
 }
 
-.urlbarView-url {
+.urlbarView-url,
+.popup-notification-learnmore-link.text-link {
   color: var(--custom-accent-color, #0a84ff) !important;
 }
 
