@@ -215,14 +215,6 @@ tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background:is([sel
   outline: none !important;
 }
 
-/* make context line (from container tabs) visible */
-.tabbrowser-tab[selected] .tab-context-line {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  border-radius: 0 !important;
-}
-
 
 /* realign the selected tab so it doesnt droop down by 2px */
 .tabbrowser-tab[selected="true"] {
