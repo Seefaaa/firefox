@@ -33,5 +33,5 @@
   --custom-menuitem-margin: 4px;
 
   /* set the height of the colored container stripe for Firefox Multi-Account Containers */
-  --container-bar-height: 1px;
+  --container-stripe-height: 1px;
 }
