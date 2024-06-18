@@ -10,22 +10,16 @@
   --button-primary-bgcolor: var(--custom-accent-color, #0a84ff) !important;
   --button-primary-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --button-primary-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
+  --buttons-primary-button-bgcolor: var(--custom-accent-color, #0a84ff) !important;
+  --buttons-primary-button-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+  --buttons-primary-button-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
+  --button-background-color-primary: var(--custom-accent-color, #0a84ff) !important;
+  --button-background-color-primary-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+  --button-background-color-primary-active: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
   --brand-color-accent: var(--custom-accent-color, #0a84ff) !important;
   --brand-color-accent-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --brand-color-accent-active: var(--custom-accent-color, #0a84ff) !important;
   --tab-attention-icon-color: var(--custom-accent-color, #0a84ff) !important;
-}
-
-
-.urlbarView-url,
-.text-link {
-  color: var(--custom-accent-color, #0a84ff) !important;
-}
-
-:root {
-  --buttons-primary-button-bgcolor: var(--custom-accent-color, #0a84ff) !important;
-  --buttons-primary-button-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
-  --buttons-primary-button-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
   --checkbox-checked-bgcolor: var(--custom-accent-color, #0a84ff) !important;
   --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --checkbox-checked-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
@@ -38,6 +32,9 @@
   --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
 }
 
+.urlbarView-url {
+  color: var(--custom-accent-color, #0a84ff) !important;
+}
 
 /* colors various popup windows (e.g. edit bookmarks, close window menus) */
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
