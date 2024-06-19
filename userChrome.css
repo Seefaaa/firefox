@@ -186,15 +186,38 @@ otherwise will change height when tabs overflow [FIXED] */
   box-shadow: inset 0 2px var(--custom-accent-color, #0a84ff) !important;
   border: 0 !important;
   outline: none !important;
+  background-repeat: no-repeat !important;
 }
 
+/* special handling for mozilla containers */
+tab[class*="identity-color"] {
+  background-image: linear-gradient(var(--identity-tab-color, white), var(--identity-tab-color, white));
+  background-size: 75% var(--container-stripe-height, 1px);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  border: 0 !important;
+  outline: none !important;
+}
 
-/* make context line (from container tabs) visible */
-.tabbrowser-tab[selected] .tab-context-line {
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  border-radius: 0 !important;
+/* override the built in container colors */
+tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background>.tab-context-line {
+  height: 0 !important;
+}
+
+/* replace with our own container border */
+tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background:is([selected], [multiselected]) {
+  background-image: linear-gradient(var(--identity-tab-color, white), var(--identity-tab-color, white));
+  background-size: 75% var(--container-stripe-height, 1px);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  border: 0 !important;
+  outline: none !important;
+}
+
+@media (-moz-bool-pref:"browser.tabcontextline.match_container_color") {
+  tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background:is([selected], [multiselected]) {
+    box-shadow: inset 0 2px var(--identity-tab-color, white) !important;
+  }
 }
 
 
