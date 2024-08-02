@@ -812,3 +812,18 @@ url(about:webrtc), url(about:welcome){
     border-end-start-radius: 0;
   }
 }
+
+/* REVIEW CHECKER */
+
+@supports (-moz-appearance:none) {
+
+  .onboardingContainer.shopping .screen[pos=split],
+  .onboardingContainer.shopping .screen[pos="split"] .section-main .main-content,
+  .shopping-card,
+  #letter-grade-wrapper,
+  #letter-grade-term,
+  #letter-grade-description,
+  #beta-marker {
+    border-radius: 0 !important;
+  }
+}
