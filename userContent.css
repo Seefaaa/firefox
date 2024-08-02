@@ -82,20 +82,21 @@ body .search-handoff-button {
 }
 
 /* square the settings button and checkboxes / buttons / selectors inside its menu */
-.personalize-button {
-  border-radius: 0 !important;
-}
-
-.close-button {
-  border-radius: 0 !important;
-}
-
-.selector {
-  border-radius: 0 !important;
-}
-
+.personalize-buttonm,
+.close-button,
+.selector,
 .sponsored-checkbox {
   border-radius: 0 !important;
+}
+
+.weatherCard,
+.weatherInfoLink,
+.weatherButtonContextMenuWrapper {
+  border-radius: 0 !important;
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
 }
 
 /* square the toggle button for above */
@@ -113,76 +114,39 @@ body .search-handoff-button {
 }
 
 /* square all the 3 dot menus */
-.context-menu-button {
-  border-radius: 0 !important;
-}
-
+.context-menu-button,
 .context-menu {
   border-radius: 0 !important;
 }
 
 /* square the shortcuts: icons, background, and selection box */
-.tile {
-  border-radius: 0 !important;
-}
-
-.top-site-icon {
-  border-radius: 0 !important;
-}
-
-.icon-wrapper {
-  border-radius: 0 !important;
-}
-
-.top-site-outer {
-  border-radius: 0 !important;
-}
-
 /* square the "suggested by pocket" cards and images */
-.ds-card {
-  border-radius: 0 !important;
-}
-
+.tile,
+.top-site-icon,
+.icon-wrapper,
+.top-site-outer,
+.ds-card,
 img {
-  border-radius: 0px !important;
+  border-radius: 0 !important;
 }
 
 /* square all the recent activity cards and images */
-.card {
-  border-radius: 0 !important;
-}
-
-.card-outer {
-  border-radius: 0 !important;
-}
-
-.card-preview-image-outer {
-  border-radius: 0 !important;
-}
-
-.card-context {
-  border-radius: 0 !important;
-}
-
+.card,
+.card-outer,
+.card-preview-image-outer,
+.card-context,
 .sections-list,
-.section-empty-state {
-  border-radius: 0 !important;
-}
-
+.section-empty-state,
 .modal {
   border-radius: 0 !important;
 }
 
 /* square the VPN button/infobox in private browsing */
-#private-browsing-vpn-link {
-  border-radius: 0 !important;
-}
-
+#private-browsing-vpn-link,
 .info,
 .promo {
   border-radius: 0 !important;
 }
-
 
 /* add hover/click colors on new tab page [workaround] */
 .slider:hover {
@@ -831,27 +795,20 @@ url(about:webrtc), url(about:welcome){
 /* READER MODE ----------------------------------------------------------------------------------------------- */
 
 @supports (-moz-appearance:none) {
-  .reader-toolbar {
-    border-radius: 0 !important;
-  }
 
-  .dropdown-popup {
+  .reader-toolbar,
+  .dropdown-popup,
+  .radiorow>label,
+  .font-size-value,
+  .content-width-value,
+  .line-height-value,
+  .color-input-container,
+  .narrate-control,
+  .narrate-start-stop,
+  #font-type-selector,
+  #font-weight-selector {
     border-radius: 0 !important;
-  }
-
-  .radiorow>label {
-    border-radius: 0 !important;
-  }
-
-  .font-size-value {
-    border-radius: 0 !important;
-  }
-
-  .content-width-value {
-    border-radius: 0 !important;
-  }
-
-  .line-height-value {
-    border-radius: 0 !important;
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
   }
 }
