@@ -6,28 +6,28 @@
 :root {
 
 
-/* custom accent color to be used across Firefox*/
-/* use hexcode or color name */
+  /* custom accent color to be used across Firefox*/
+  /* use hexcode or color name */
   --custom-accent-color: #0a84ff;
 
 
-/* color of the tab dividers / separators */
-/* set variable = none, to disable dividers */
+  /* color of the tab dividers / separators */
+  /* set variable = none, to disable dividers */
   --custom-tab-divider-color: none;
 
 
-/* sets the height of the tabs toolbar */
-/* legacy height (<= v1.6.2) = 33px */
-/* functionality broken as of FF 108 - WIP */
+  /* sets the height of the tabs toolbar */
+  /* legacy height (<= v1.6.2) = 33px */
+  /* functionality broken as of FF 108 - WIP */
   /* --tab-bar-height: 35px; */
 
 
-/* set the size of sync profile pic */
-/* 1.0 = 100% scale */
+  /* set the size of sync profile pic */
+  /* 1.0 = 100% scale */
   --sync-avatar-scale: 1.0;
 
-/* custom paddings/margins for the menu itmes */
-/* for reference: */
+  /* custom paddings/margins for the menu itmes */
+  /* for reference: */
   --custom-menuitem-padding-vertical: 3px;
   --custom-menuitem-padding-horizontal: 4px;
   --custom-menuitem-margin: 0px;

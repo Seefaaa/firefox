@@ -57,23 +57,29 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - Custom padding/margin for menu items
   - <img src="https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/padding%20reference.png" width="425">
   
-**`about:config`**
-  - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
-  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
-  - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
-  - Color the separator in the app menu by creating the pref `browser.appmenugradient.overwrite` = `true`
-  - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
-  - Add more padding on left side of tab bar by creating the pref `browser.lefttabspacer.enable` = `true` 
-  - Disable Unified Extensions button (on the nav bar) by created the pref `browser.unifiedextensions.hide` = `true`
-  - Hide Extensions Dot (![example extensions dot](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/extensions_dot.png)) by creating the pref `browser.extensionsdot.hide` = `true`
+**`about:config`**  
+Add the following preferences in the `about:config` page as a boolean (`true`/`false`) to set the desired behavior
+  - `browser.windowcontrolbuttons.overwrite`:  Toggles default window controls in title bar (linux only) by creating the pref 
+      - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
+  - `browser.syncavatar.round` Re-rounds the sync profile picture on the nav bar
+  - `browser.appmenugradient.overwrite` Colors the separator in the app menu
+      - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
+  - `browser.lefttabspacer.enable` Toggles more padding on left side of tab bar
+  - `browser.unifiedextensions.hide` Toggles the Unified Extensions button on the nav bar
+      - Hide Extensions Dot (![example extensions dot](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/extensions_dot.png)) by creating the pref `browser.extensionsdot.hide` = `true`
+  - `browser.tabcontextline.match_container_color` Toggles the color of the tab context line (top line of the active tab) between matching the container color and the user color
+      - ![dynamic container tab colors](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/container_tabs.png)
 
 
 
 ## Suggested Tweaks 
 **`about:config`**
-  - set `browser.tabs.tabMinWidth` to `150` px or desired width
-  - set `widget.non-native-theme.gtk.scrollbar.round-thumb` to `false` to square the scrollbar (linux only)
-  - change `layout.css.devPixelsPerPx` to scale the whole browser (1.0 represents 100% scaling)
+  - `browser.tabs.tabMinWidth`
+      - `150` px or desired width
+  - `widget.non-native-theme.gtk.scrollbar.round-thumb`
+      - `false` squares the scrollbar (linux only)
+  - `layout.css.devPixelsPerPx`
+      - scale the whole browser (1.0 represents 100% scaling)
 
 
 **Addons**
