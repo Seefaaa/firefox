@@ -151,7 +151,9 @@ otherwise will change height when tabs overflow [FIXED] */
 /* .toolbar-items {height: var(--tab-bar-height, 35px) !important;} */
 /* .tabbrowser-tab {height: var(--tab-bar-height, 35px) !important;} */
 
-
+#tabbrowser-tabs {
+  min-height: 0 !important;
+}
 
 /* Reduce left spacer on tab bar */
 @supports (not (-moz-osx-font-smoothing: auto)) {
