@@ -85,7 +85,8 @@ body .search-handoff-button {
 .personalize-buttonm,
 .close-button,
 .selector,
-.sponsored-checkbox {
+.sponsored-checkbox,
+.wallpaper-input {
   border-radius: 0 !important;
 }
 
@@ -126,6 +127,8 @@ body .search-handoff-button {
 .icon-wrapper,
 .top-site-outer,
 .ds-card,
+.ds-card>.ds-card-topic,
+.card-stp-button-hover-background,
 img {
   border-radius: 0 !important;
 }
