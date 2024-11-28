@@ -625,46 +625,30 @@ richlistbox {
 
 
 /* FIREFOX VIEW PAGE ----------------------------------------------------------------------------------------- */
-@-moz-document url(about:firefoxview), url(about:firefoxview-next){
-.tabpickup-steps {
-  border-radius: 0 !important;
-}
+@-moz-document regexp("^(about:firefoxview).*") {
 
-.twisty {
-  border-radius: 0 !important;
-}
+  .tabpickup-steps,
+  .twisty,
+  .closed-tab-li-main,
+  .card,
+  .zap-card::before {
+    border-radius: 0 !important;
+  }
 
-.closed-tab-li-main {
-  border-radius: 0 !important;
-}
+  .step-progress,
+  .step-progress:not([value="0"])::-moz-progress-bar {
+    border-radius: 0 !important;
+  }
 
-.card {
-  border-radius: 0 !important;
-}
 
-.zap-card::before {
-  border-radius: 0 !important;
-}
+  #colorways-collection-expiry-date,
+  #colorways-collection-expiry-date>span {
+    border-radius: 0 !important;
+  }
 
-.step-progress {
-  border-radius: 0 !important;
-}
-
-.step-progress:not([value="0"])::-moz-progress-bar {
-  border-radius: 0 !important;
-}
-
-#colorways-collection-expiry-date {
-  border-radius: 0 !important;
-}
-
-#colorways-collection-expiry-date>span {
-  border-radius: 0 !important;
-}
-
-*:not(input) {
-  border-radius: 0 !important;
-}
+  * {
+    border-radius: 0 !important;
+  }
 }
 
 /* OTHER INTERNAL PAGES ------------------------------------------------------------------------------------- */
