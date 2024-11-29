@@ -39,4 +39,6 @@
   /* use hexcode or color name or set transparent to hide */
   --selected-tab-strip: transparent;
 
+  /* reverts thicker tabs */
+  --tab-block-margin: 0 !important;
 }
