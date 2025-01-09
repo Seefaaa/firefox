@@ -2,7 +2,7 @@
 
 @media (-moz-platform: windows) {
 	:root[privatebrowsingmode=temporary] {
-		#private-browsing-indicator-with-label {
+		.private-browsing-indicator-with-label {
 			width: 46px;
 			margin: 0 !important;
 			justify-content: center;
