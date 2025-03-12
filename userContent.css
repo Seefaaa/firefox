@@ -627,6 +627,10 @@ richlistbox {
 /* FIREFOX VIEW PAGE ----------------------------------------------------------------------------------------- */
 @-moz-document regexp("^(about:firefoxview).*") {
 
+  :root {
+    --button-border-radius: 0 !important;
+  }
+  
   .tabpickup-steps,
   .twisty,
   .closed-tab-li-main,
@@ -639,7 +643,6 @@ richlistbox {
   .step-progress:not([value="0"])::-moz-progress-bar {
     border-radius: 0 !important;
   }
-
 
   #colorways-collection-expiry-date,
   #colorways-collection-expiry-date>span {
