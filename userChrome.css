@@ -31,6 +31,7 @@
   --lwt-popup-brighttext-url-color: var(--custom-accent-color, #0a84ff) !important;
   --focus-outline-color: var(--custom-accent-color, #0a84ff) !important;
   --toolbar-field-focus-border-color: var(--custom-accent-color, #0a84ff) !important;
+  --link-color: var(--custom-accent-color, #0a84ff) !important;
   /*Star Highlight & Download Finished*/
   --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
   --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
@@ -273,6 +274,10 @@ tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background:is([sel
   border-radius: 0 !important;
 }
 
+/* new sidebar tabs */
+moz-button, :host {
+  --button-border-radius: 0 !important;
+}
 
 /* NAV BAR ---------------------------------------------------------------------------------------------------- */
 
@@ -598,6 +603,19 @@ notification-message {
   border-radius: 0 !important;
 }
 
+/* sidebar and its panels*/
+#sidebar, .screen, .select-item, .button-background,
+.inline-image, .selectedTab, .moz-card, moz-fieldset,
+#inputs, .search-container {
+  border-radius: 0 !important;
+}
+
+/* input fields dont like to change, so do it this way instead */
+:root {
+  --border-radius-small: 0 !important;
+  --border-radius-medium: 0 !important;
+  --border-radius-large: 0 !important;
+}
 
 /* THUNDERBIRD SPECIFIC ------------------------------------------------------------------------------ */
 /* custom color for tab line */
