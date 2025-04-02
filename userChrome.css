@@ -23,6 +23,7 @@
 
 :root {
   --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
+  --toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
   --button-primary-bgcolor: var(--custom-accent-color, #0a84ff) !important;
   --button-primary-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --button-primary-active-bgcolor: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
@@ -35,6 +36,9 @@
   --brand-color-accent: var(--custom-accent-color, #0a84ff) !important;
   --brand-color-accent-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
   --brand-color-accent-active: var(--custom-accent-color, #0a84ff) !important;
+  --color-accent-primary: var(--custom-accent-color, #0a84ff) !important;
+  --color-accent-primary-hover: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
+  --color-accent-primary-pressed: color-mix(in srgb, white 65%, var(--custom-accent-color, #0a84ff)) !important;
   --tab-attention-icon-color: var(--custom-accent-color, #0a84ff) !important;
   --checkbox-checked-bgcolor: var(--custom-accent-color, #0a84ff) !important;
   --checkbox-checked-hover-bgcolor: color-mix(in srgb, white 50%, var(--custom-accent-color, #0a84ff)) !important;
@@ -43,6 +47,7 @@
   --lwt-popup-brighttext-url-color: var(--custom-accent-color, #0a84ff) !important;
   --focus-outline-color: var(--custom-accent-color, #0a84ff) !important;
   --toolbar-field-focus-border-color: var(--custom-accent-color, #0a84ff) !important;
+  --link-color: var(--custom-accent-color, #0a84ff) !important;
   /*Star Highlight & Download Finished*/
   --lwt-toolbarbutton-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
   --lwt-toolbar-field-icon-fill-attention: var(--custom-accent-color, #0a84ff) !important;
@@ -167,7 +172,9 @@ otherwise will change height when tabs overflow [FIXED] */
 /* .toolbar-items {height: var(--tab-bar-height, 35px) !important;} */
 /* .tabbrowser-tab {height: var(--tab-bar-height, 35px) !important;} */
 
-
+#tabbrowser-tabs {
+  min-height: 0 !important;
+}
 
 /* Reduce left spacer on tab bar */
 @supports (not (-moz-osx-font-smoothing: auto)) {
@@ -283,6 +290,10 @@ tab[class*="identity-color"][selected="true"]>.tab-stack>.tab-background:is([sel
   border-radius: 0 !important;
 }
 
+/* new sidebar tabs */
+moz-button, :host {
+  --button-border-radius: 0 !important;
+}
 
 /* NAV BAR ---------------------------------------------------------------------------------------------------- */
 
@@ -608,6 +619,19 @@ notification-message {
   border-radius: 0 !important;
 }
 
+/* sidebar and its panels*/
+#sidebar, .screen, .select-item, .button-background,
+.inline-image, .selectedTab, .moz-card, moz-fieldset,
+#inputs, .search-container {
+  border-radius: 0 !important;
+}
+
+/* input fields dont like to change, so do it this way instead */
+:root {
+  --border-radius-small: 0 !important;
+  --border-radius-medium: 0 !important;
+  --border-radius-large: 0 !important;
+}
 
 /* THUNDERBIRD SPECIFIC ------------------------------------------------------------------------------ */
 /* custom color for tab line */
