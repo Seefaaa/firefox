@@ -1,0 +1,10 @@
+/* replaces firefox account email with 'Account' label in the top right application manu */
+
+#appMenu-header-description {
+	width: 0;
+	font-weight: 500 !important;
+
+	&::after {
+		content: 'Account';
+	}
+}

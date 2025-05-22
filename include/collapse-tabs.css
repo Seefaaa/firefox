@@ -1,0 +1,98 @@
+/* makes moving a bookmark folder to the toolbar's first place collapses tabs like they were pinned */
+#navigator-toolbox:has(#PlacesToolbarItems[orient="horizontal"] > .bookmark-item[type=menu]:first-child) {
+  .tabbrowser-tab {
+    flex: none !important;
+    min-width: 36px !important;
+
+    transition: min-width 100ms ease-out, max-width 100ms ease-out !important;
+
+    &:not([fadein]) {
+      max-width: 0.1px !important;
+      min-width: 0.1px !important;
+      visibility: hidden !important;
+    }
+  }
+
+  .tab-content {
+    padding: 0 10px !important;
+  }
+
+  .tab-icon-overlay {
+    &:not([crashed]) {
+      &[soundplaying] {
+        list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-playing-small.svg");
+      }
+
+      &[muted] {
+        list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-muted-small.svg");
+      }
+
+      &[activemedia-blocked] {
+        list-style-image: url("chrome://browser/skin/tabbrowser/tab-audio-blocked-small.svg");
+      }
+
+      &:is([soundplaying], [muted], [activemedia-blocked]) {
+        --audio-overlay-extra-background: transparent;
+        background-color: var(--lwt-accent-color);
+        background-image: linear-gradient(var(--audio-overlay-extra-background)), linear-gradient(var(--toolbox-bgcolor));
+        -moz-context-properties: fill !important;
+        fill: var(--tab-selected-textcolor);
+        color-scheme: var(--tab-selected-color-scheme);
+        border-radius: var(--border-radius-circle) !important;
+
+        .browser-toolbox-background:-moz-window-inactive &:not([selected]) {
+          background-image: linear-gradient(var(--audio-overlay-extra-background)), linear-gradient(var(--toolbox-bgcolor-inactive));
+        }
+
+        &:hover {
+          --audio-overlay-extra-background: var(--button-background-color-ghost-hover);
+        }
+
+        &:hover:active {
+          --audio-overlay-extra-background: var(--button-background-color-ghost-active);
+        }
+
+        &[selected] {
+          background-image: linear-gradient(var(--audio-overlay-extra-background)), linear-gradient(var(--tab-selected-bgcolor)), linear-gradient(var(--toolbox-bgcolor));
+        }
+
+        .browser-toolbox-background:-moz-window-inactive &[selected] {
+          background-image: linear-gradient(var(--audio-overlay-extra-background)), linear-gradient(var(--tab-selected-bgcolor)), linear-gradient(var(--toolbox-bgcolor-inactive));
+        }
+      }
+    }
+
+    &:is([soundplaying], [muted], [activemedia-blocked]) {
+      display: revert !important;
+    }
+  }
+
+  .tab-label-container {
+    width: 0 !important;
+  }
+
+  .tab-icon-overlay, .tab-throbber, .tab-icon-image {
+    margin-inline-end: 0 !important;
+  }
+
+  .tab-icon-pending, .tab-audio-button, .tab-close-button,
+  .tab-icon-image:not([src], [crashed], [sharing], [pictureinpicture]) {
+    display: none !important;
+  }
+
+  .tabbrowser-tab > .tab-stack > .tab-content[attention]:not([selected]),
+  .tabbrowser-tab > .tab-stack > .tab-content[titlechanged]:not([selected]) {
+    background-image: radial-gradient(circle, var(--attention-dot-color), var(--attention-dot-color) 2px, transparent 2px) !important;
+    background-position: center bottom 6.5px !important;
+    background-size: 4px 4px !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .tabbrowser-tab[image] > .tab-stack > .tab-content[attention]:not([selected]) {
+    background-position-x: revert !important;
+  }
+
+  #tabbrowser-tabs:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab:nth-child(1 of :not([hidden])) {
+    margin-inline-start: revert !important;
+  }
+}
