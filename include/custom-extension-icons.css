@@ -1,0 +1,5 @@
+/* changes some extension's icons which i do not like */
+
+toolbaritem[data-extensionid="simple-translate@sienori"] .toolbarbutton-icon {
+  list-style-image: url(chrome://browser/skin/translations.svg) !important;
+}

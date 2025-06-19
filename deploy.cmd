@@ -34,3 +34,5 @@ IF EXIST %FIREFOXPROFILE%\include (
 xcopy include %FIREFOXPROFILE%\include /s /i /y 1>nul
 
 echo CSS files copied to %FIREFOXPROFILE%
+
+pause

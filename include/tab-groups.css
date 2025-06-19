@@ -1,0 +1,37 @@
+/* makes tab group button a small circle */
+
+.tab-group-label-container {
+	width: 36px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.tab-group-label {
+	outline: none !important;
+	background-color: transparent !important;
+	min-height: 0 !important;
+	min-width: 0 !important;
+	width: 36px !important;
+	height: 36px !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	z-index: 0;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+	&:after {
+		content: '';
+		z-index: -1;
+		position: absolute;
+		top: 50%; left: 50%;
+		transform: translate(-50%, -50%);
+		width: 16px; height: 16px;
+		background-color: light-dark(var(--tab-group-color), var(--tab-group-color-invert));
+		border-radius: 100%;
+	}
+
+	tab-group[collapsed] &:after {
+		background-color: light-dark(var(--tab-group-color-pale), var(--tab-group-color));
+	}
+}

@@ -4,6 +4,7 @@
 /* seefaaa */
 @import url(include/alttabs-button.css);
 @import url(include/collapse-tabs.css);
+@import url(include/custom-extension-icons.css);
 @import url(include/hide-account-mail.css);
 @import url(include/hide-fullscreen-warning.css);
 @import url(include/hide-navigation.css);
@@ -18,6 +19,7 @@
 @import url(include/new-tab-button-padding.css);
 @import url(include/pinned-tab-margin.css);
 @import url(include/square-tooltips.css);
+@import url(include/tab-groups.css);
 @import url(include/toolbar-padding.css);
 
 
