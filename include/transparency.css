@@ -1,0 +1,13 @@
+/* makes browser transparent based on os */
+/* browser.tabs.allow_transparent_browser must set true */
+
+:root, #browser, #tabbrowser-tabpanels, .browser-toolbox-background {
+  background: none !important;
+}
+
+:root {
+  --toolbar-bgcolor: rgba(18, 18, 18, 0) !important;
+  --toolbarbutton-hover-background: light-dark(hsla(0, 0%, 0%, .12), hsla(0, 0%, 100%, .22)) !important;
+  --toolbarbutton-active-background: light-dark(hsla(0, 0%, 0%, .22), hsla(0, 0%, 100%, .32)) !important;
+  /* --urlbarView-highlight-background: light-dark(hsla(0,0%,0%,.12), hsla(0,0%,100%,.22)) !important; */
+}
