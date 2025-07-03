@@ -1,6 +1,6 @@
 /* makes moving a specific bookmark folder to the toolbar's first place collapses tabs like they were pinned */
 
-#navigator-toolbox:has(#PlacesToolbarItems[orient="horizontal"] > .bookmark-item[type=menu][label="!collapse"]:first-child) {
+#navigator-toolbox:has(#PlacesToolbarItems[orient="horizontal"] > .bookmark-item[type=menu][label="!collapse"]:first-child), :root[sizemode=normal] {
   .tabbrowser-tab {
     flex: none !important;
     min-width: 36px !important;
