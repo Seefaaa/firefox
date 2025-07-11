@@ -3,6 +3,7 @@
 
 /* seefaaa */
 @import url(include/alttabs-button.css);
+@import url(include/app-mode.css);
 @import url(include/collapse-tabs.css);
 @import url(include/custom-extension-icons.css);
 @import url(include/hide-account-mail.css);
