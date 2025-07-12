@@ -1,6 +1,4 @@
-/* makes moving a specific bookmark folder to the toolbar's first place collapses tabs like they were pinned */
-
-#navigator-toolbox:has(#PlacesToolbarItems[orient="horizontal"] > .bookmark-item[type=menu][label="!collapse"]:first-child), :root[sizemode=normal] {
+#navigator-toolbox:has(#bookmarksMenuPopup>menu[label="!pinmode"]>menupopup>menu[label="!current"]:nth-child(2)), :root[sizemode=normal] {
   .tabbrowser-tab {
     flex: none !important;
     min-width: 36px !important;
@@ -98,38 +96,48 @@
   }
 }
 
-#PlacesToolbarItems[orient="horizontal"] > .bookmark-item[type=menu][label="!collapse"] {
-  .toolbarbutton-icon {
-    margin-inline-end: 0 !important;
+#bookmarksMenuPopup>menu[label="!pinmode"] {
+  &>.menu-icon {
     list-style-image: url("chrome://browser/skin/pin-12.svg");
   }
 
-  .toolbarbutton-text, .toolbar-menupopup {
-    display: none !important;
-  }
-}
-
-#PlacesChevronPopup > menu.bookmark-item[label="!collapse"],
-#OtherBookmarksPopup > menu.bookmark-item[label="!collapse"] {
-  .menu-iconic-icon {
-    list-style-image: url("chrome://browser/skin/pin-12.svg");
-  }
-
-  .menu-iconic-text {
+  &>.menu-text {
     &::before {
       display: none;
     }
 
     &::after {
-      content: 'Collapse Tabs';
+      content: 'Pin Mode';
     }
   }
 
-  .menu-right {
-    display: none;
-  }
+  &>menupopup {
+    &>menu[label="!current"] {
+      &>.menu-icon {
+        display: none;
+      }
 
-  menupopup {
-    display: none;
+      &>.menu-text {
+        &::before {
+          display: none;
+        }
+
+        &::after {
+          content: 'On';
+        }
+      }
+
+      &::after {
+        display: none !important;
+      }
+
+      &>menupopup {
+        display: none;
+      }
+    }
+
+    &>menuseparator:not([hidden])+menu[label="!current"]>.menu-text::after {
+      content: 'Off';
+    }
   }
 }
