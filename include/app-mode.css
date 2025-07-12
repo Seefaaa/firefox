@@ -1,4 +1,4 @@
-#navigator-toolbox:has(#bookmarksMenuPopup > menu[label="Action"] > menupopup > menu[label="!appmode"]:nth-child(2)) {
+#navigator-toolbox:has(#bookmarksMenuPopup>menu[label="!appmode"]>menupopup>menu[label="!current"]:nth-child(2)) {
   border: none !important;
 
   #nav-bar {
@@ -9,23 +9,23 @@
     display: none !important;
   }
 
-  #TabsToolbar > .toolbar-items {
+  #TabsToolbar>.toolbar-items {
     visibility: hidden !important;
   }
 
-  &:not(:has(> #toolbar-menubar[inactive])) {
+  &:not(:has(>#toolbar-menubar[inactive])) {
     #TabsToolbar {
       display: none !important;
     }
   }
 }
 
-#bookmarksMenuPopup > menu[label="Action"] > menupopup > menu[label="!appmode"] {
-  .menu-icon {
+#bookmarksMenuPopup>menu[label="!appmode"] {
+  &>.menu-icon {
     list-style-image: url("chrome://browser/skin/window.svg");
   }
 
-  .menu-text {
+  &>.menu-text {
     &::before {
       display: none;
     }
@@ -35,13 +35,33 @@
     }
   }
 
-  menupopup {
-    display: none;
-  }
-  
-  & { /* wtf */
-    &::after {
-      display: none !important;
+  &>menupopup {
+    &>menu[label="!current"] {
+      &>.menu-icon {
+        display: none;
+      }
+
+      &>.menu-text {
+        &::before {
+          display: none;
+        }
+
+        &::after {
+          content: 'On';
+        }
+      }
+
+      &::after {
+        display: none !important;
+      }
+
+      &>menupopup {
+        display: none;
+      }
+    }
+
+    &>menuseparator:not([hidden])+menu[label="!current"]>.menu-text::after {
+      content: 'Off';
     }
   }
 }
