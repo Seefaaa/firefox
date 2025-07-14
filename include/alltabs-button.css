@@ -1,4 +1,4 @@
-/* docks alttabs button to next to the minimize button for windows like previous versions of chrome */
+/* aligns alltabs button to next to the minimize button for windows */
 
 @media (-moz-platform: windows) {
 	.titlebar-spacer {
@@ -18,5 +18,11 @@
 	#alltabs-button>stack {
 		padding: 0 !important;
 		background: none !important;
+	}
+
+	#navigator-toolbox:has(#toolbar-menubar:not([inactive])) #alltabs-button {
+		position: relative;
+		top: -28px;
+		height: 28px;
 	}
 }
