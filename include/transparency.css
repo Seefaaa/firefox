@@ -1,8 +1,12 @@
 /* makes browser transparent based on os */
 /* browser.tabs.allow_transparent_browser must set true */
 
-:root, #browser, #tabbrowser-tabpanels, .browser-toolbox-background {
+:root:not([subdialog]), #browser, #tabbrowser-tabpanels, .browser-toolbox-background {
   background: none !important;
+}
+
+#navigator-toolbox {
+  border-bottom-style: none !important;
 }
 
 :root {
