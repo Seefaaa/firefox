@@ -1,5 +1,5 @@
 #navigator-toolbox:has(#bookmarksMenuPopup>menu[label="!pinmode"]>menupopup>menu[label="!current"]:nth-child(2)),
-:root[sizemode=normal]:has(#bookmarksMenuPopup>menu[label="!pinmode"]>menupopup>menu[label="!current"]:nth-child(3)) {
+:root[sizemode=normal]:not(:has(#bookmarksMenuPopup>menu[label="!pinmode"]>menupopup>menu[label="!current"]:nth-child(4))) {
   .tabbrowser-tab {
     flex: none !important;
     min-width: 36px !important;

@@ -9,8 +9,12 @@
     display: none !important;
   }
 
-  #TabsToolbar>.toolbar-items {
+  #TabsToolbar>.toolbar-items:not(:has(#tabbrowser-tabs tab:nth-child(2))) {
     visibility: hidden !important;
+  }
+
+  #tabs-newtab-button {
+    display: none;
   }
 
   &:not(:has(>#toolbar-menubar[inactive])) {

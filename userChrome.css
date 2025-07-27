@@ -2,7 +2,7 @@
 @import url(userVariables.css);
 
 /* seefaaa */
-@import url(include/alttabs-button.css);
+@import url(include/alltabs-button.css);
 @import url(include/app-mode.css);
 @import url(include/custom-extension-icons.css);
 @import url(include/hide-account-mail.css);
@@ -17,7 +17,7 @@
 @import url(include/hide-unused-context.css);
 @import url(include/move-private-browsing.css);
 @import url(include/new-tab-button-padding.css);
-@import url(include/pinmode-mode.css);
+@import url(include/pin-mode.css);
 @import url(include/pinned-tab-margin.css);
 @import url(include/square-tooltips.css);
 @import url(include/tab-groups.css);
